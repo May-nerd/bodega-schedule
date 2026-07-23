@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Team Bodega · Baseline Cup 2026 Schedule</title>
+  <meta name="description" content="Team Bodega match schedule for Baseline Cup 2026 at Habagat Sports Center, Kalibo — Fri–Sun, Jul 24–26." />
+  <meta name="theme-color" content="#1b2437" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #1b2437;
+      --navy-light: #2a3752;
+      --green: #387352;
+      --green-hover: #2d5e42;
+      --cream: #f9f8f3;
+      --cream-dark: #f0ebe1;
+      --tan: #e3d6c1;
+      --tan-dark: #cca785;
+      --ink: #1b2437;
+      --muted: #5c667a;
+      --card: #ffffff;
+      --danger: #9b3b3b;
+      --live: #c45c26;
+      --radius: 14px;
+      --shadow: 0 8px 24px rgba(27, 36, 55, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "DM Sans", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(56, 115, 82, 0.12), transparent 35%),
+        radial-gradient(circle at 88% 0%, rgba(27, 36, 55, 0.1), transparent 40%),
+        var(--cream);
+    }
+
+    .wrap {
+      width: min(720px, 100%);
+      margin: 0 auto;
+      padding: 1rem 1rem 3rem;
+    }
+
+    header.hero {
+      background: linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 70%, #243450 100%);
+      color: var(--cream);
+      border-radius: 22px;
+      padding: 1.35rem 1.25rem 1.2rem;
+      box-shadow: var(--shadow);
+      border-bottom: 5px solid var(--green);
+      position: relative;
+      overflow: hidden;
+    }
+    header.hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size: 28px 28px;
+      opacity: 0.45;
+      pointer-events: none;
+    }
+    header.hero > * { position: relative; z-index: 1; }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--tan);
+      margin-bottom: 0.55rem;
+    }
+    .eyebrow .dot {
+      width: 0.45rem;
+      height: 0.45rem;
+      border-radius: 50%;
+      background: var(--green);
+      box-shadow: 0 0 0 3px rgba(56, 115, 82, 0.25);
+    }
+
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: clamp(1.7rem, 6vw, 2.25rem);
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      margin: 0 0 0.2rem;
+      line-height: 1.1;
+    }
+    .subtitle {
+      margin: 0;
+      color: #c9d2e0;
+      font-size: 0.92rem;
+      font-weight: 500;
+    }
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem 0.75rem;
+      margin-top: 0.9rem;
+      font-size: 0.78rem;
+      color: var(--tan);
+    }
+    .meta-row span {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(227, 214, 193, 0.25);
+      border-radius: 999px;
+      padding: 0.28rem 0.65rem;
+    }
+
+    .toolbar {
+      margin-top: 1rem;
+      display: grid;
+      gap: 0.75rem;
+    }
+    .search {
+      width: 100%;
+      border: 1px solid var(--tan);
+      background: var(--card);
+      border-radius: 12px;
+      padding: 0.75rem 0.9rem;
+      font: inherit;
+      font-size: 0.95rem;
+      color: var(--ink);
+      box-shadow: var(--shadow);
+    }
+    .search:focus {
+      outline: 2px solid rgba(56, 115, 82, 0.35);
+      border-color: var(--green);
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 0.45rem;
+      overflow-x: auto;
+      padding-bottom: 0.2rem;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+    .chip {
+      flex: 0 0 auto;
+      border: 1px solid var(--tan);
+      background: var(--card);
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 0.45rem 0.8rem;
+      font: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+    }
+    .chip:hover { border-color: var(--green); }
+    .chip.active {
+      background: var(--navy);
+      border-color: var(--navy);
+      color: var(--cream);
+    }
+    .chip.all.active {
+      background: var(--green);
+      border-color: var(--green);
+    }
+
+    .day-nav {
+      display: flex;
+      gap: 0.4rem;
+      margin-top: 0.25rem;
+    }
+    .day-btn {
+      flex: 1;
+      border: 1px solid var(--tan);
+      background: var(--cream-dark);
+      color: var(--muted);
+      border-radius: 10px;
+      padding: 0.55rem 0.4rem;
+      font: inherit;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .day-btn.active {
+      background: var(--navy);
+      border-color: var(--navy);
+      color: var(--cream);
+    }
+    .day-btn .count {
+      display: block;
+      font-weight: 500;
+      opacity: 0.8;
+      font-size: 0.7rem;
+      margin-top: 0.1rem;
+    }
+
+    .status-line {
+      margin: 0.85rem 0 0;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    .status-line strong { color: var(--green); }
+
+    .day-block { margin-top: 1.25rem; }
+    .day-title {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 1.15rem;
+      margin: 0 0 0.65rem;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+    .day-title small {
+      font-family: "DM Sans", sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .match-list {
+      display: grid;
+      gap: 0.65rem;
+    }
+    .match {
+      background: var(--card);
+      border: 1px solid rgba(227, 214, 193, 0.85);
+      border-radius: var(--radius);
+      padding: 0.85rem 0.9rem;
+      box-shadow: var(--shadow);
+    }
+    .match-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.45rem;
+    }
+    .time {
+      font-family: "Fraunces", Georgia, serif;
+      font-weight: 700;
+      font-size: 1.25rem;
+      line-height: 1;
+      color: var(--navy);
+    }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 0.3rem;
+    }
+    .badge {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      border-radius: 999px;
+      padding: 0.22rem 0.5rem;
+      background: var(--cream-dark);
+      color: var(--navy);
+      border: 1px solid var(--tan);
+    }
+    .badge.court { background: rgba(56, 115, 82, 0.12); border-color: rgba(56, 115, 82, 0.3); color: var(--green-hover); }
+    .badge.scheduled { background: rgba(196, 92, 38, 0.12); border-color: rgba(196, 92, 38, 0.35); color: var(--live); }
+    .badge.pending { color: var(--muted); }
+    .badge.completed { background: rgba(27, 36, 55, 0.08); }
+
+    .event {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--green);
+      margin-bottom: 0.35rem;
+    }
+    .stage {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-bottom: 0.45rem;
+    }
+    .teams {
+      font-size: 0.92rem;
+      line-height: 1.35;
+    }
+    .teams .us { font-weight: 700; color: var(--navy); }
+    .teams .vs {
+      display: inline-block;
+      margin: 0 0.35rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--tan-dark);
+      text-transform: uppercase;
+    }
+    .teams .them { color: #3d4659; }
+    .bodega-tag {
+      display: inline-block;
+      margin-top: 0.45rem;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+    .bodega-tag em {
+      font-style: normal;
+      font-weight: 600;
+      color: var(--green-hover);
+    }
+
+    .empty {
+      margin-top: 1.5rem;
+      padding: 1.25rem;
+      text-align: center;
+      background: var(--cream-dark);
+      border-radius: var(--radius);
+      color: var(--muted);
+      border: 1px dashed var(--tan);
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1.1rem 1rem;
+      background: var(--navy);
+      color: var(--cream);
+      border-radius: 18px;
+      text-align: center;
+    }
+    footer p {
+      margin: 0 0 0.55rem;
+      font-size: 0.82rem;
+      color: var(--tan);
+      line-height: 1.45;
+    }
+    footer a {
+      color: #fff;
+      font-weight: 600;
+    }
+    .err {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: #f8e8e8;
+      border: 1px solid #e2b4b4;
+      border-radius: var(--radius);
+      color: var(--danger);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span> Team Bodega</div>
+      <h1>Baseline Cup Schedule</h1>
+      <p class="subtitle">Habagat Sports Center · Kalibo · Fri–Sun, Jul 24–26</p>
+      <div class="meta-row">
+        <span>Bodega athletes only</span>
+        <span id="updatedLabel">Updating…</span>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <input id="search" class="search" type="search" placeholder="Filter by athlete name…" autocomplete="off" />
+      <div id="chips" class="chips" role="listbox" aria-label="Filter athletes"></div>
+      <div id="dayNav" class="day-nav" aria-label="Jump to day"></div>
+      <p class="status-line" id="statusLine"></p>
+    </div>
+
+    <main id="timeline"></main>
+    <div id="empty" class="empty" hidden>No Bodega matches match this filter.</div>
+    <div id="error" class="err" hidden></div>
+
+    <footer>
+      <p>Near-live snapshot from PicklePodium. Courts and times can change.</p>
+      <p><a id="officialLink" href="https://picklepodium.vercel.app/t/1st-baseline-cup/schedule" target="_blank" rel="noopener">Open official live schedule</a></p>
+    </footer>
+  </div>
+
+  <script>
+    const DATA_URL = "schedule/bodega-schedule.json";
+    const DAY_ORDER = ["2026-07-24", "2026-07-25", "2026-07-26"];
+    const DAY_LABELS = {
+      "2026-07-24": { title: "Friday", short: "Fri", sub: "Jul 24" },
+      "2026-07-25": { title: "Saturday", short: "Sat", sub: "Jul 25" },
+      "2026-07-26": { title: "Sunday", short: "Sun", sub: "Jul 26" },
+    };
+
+    const state = {
+      data: null,
+      filterKey: "all",
+      search: "",
+      matches: [],
+    };
+
+    const els = {
+      chips: document.getElementById("chips"),
+      dayNav: document.getElementById("dayNav"),
+      timeline: document.getElementById("timeline"),
+      empty: document.getElementById("empty"),
+      error: document.getElementById("error"),
+      search: document.getElementById("search"),
+      updatedLabel: document.getElementById("updatedLabel"),
+      statusLine: document.getElementById("statusLine"),
+      officialLink: document.getElementById("officialLink"),
+    };
+
+    function shortName(full) {
+      if (!full) return "";
+      const parts = full.split(",").map((s) => s.trim());
+      if (parts.length >= 2) {
+        const first = parts[1].split(/\s+/)[0];
+        return `${first} ${parts[0]}`;
+      }
+      return full;
+    }
+
+    function displayName(full) {
+      return shortName(full) || full;
+    }
+
+    function cleanEvent(name) {
+      return (name || "").replace(/\s*\(\d+\s*Pairs\)\s*$/i, "");
+    }
+
+    function formatUpdated(iso) {
+      if (!iso) return "Updated —";
+      try {
+        const d = new Date(iso);
+        return "Updated " + d.toLocaleString(undefined, {
+          month: "short", day: "numeric", hour: "numeric", minute: "2-digit",
+        });
+      } catch {
+        return "Updated —";
+      }
+    }
+
+    function statusBadge(status) {
+      const s = (status || "pending").toLowerCase();
+      const label = s === "scheduled" ? "Up next" : s;
+      return `<span class="badge ${s}">${label}</span>`;
+    }
+
+    function buildMatchIndex(data) {
+      const byId = new Map();
+      const bodegaKeys = new Set(data.players.map((p) => p.key));
+      const bodegaNames = new Set(data.players.map((p) => p.name));
+
+      for (const player of data.players) {
+        for (const entry of player.entries || []) {
+          for (const match of entry.matches || []) {
+            const id = match.matchId;
+            if (!id) continue;
+            let row = byId.get(id);
+            if (!row) {
+              row = {
+                matchId: id,
+                date: match.date,
+                time: match.time || "",
+                court: match.court || "",
+                eventName: match.eventName || entry.eventName,
+                stageLabel: match.stageLabel || "",
+                status: match.status || "pending",
+                score: match.score,
+                opponent: match.opponent || "",
+                teamName: entry.teamName || "",
+                bodegaPlayers: [],
+                bodegaKeys: new Set(),
+              };
+              byId.set(id, row);
+            }
+            if (!row.bodegaKeys.has(player.key)) {
+              row.bodegaKeys.add(player.key);
+              row.bodegaPlayers.push({ key: player.key, name: player.name });
+            }
+            // Prefer richer teamName if present
+            if (entry.teamName && entry.teamName.length > (row.teamName || "").length) {
+              row.teamName = entry.teamName;
+            }
+            if (match.opponent) row.opponent = match.opponent;
+            if (match.time) row.time = match.time;
+            if (match.court) row.court = match.court;
+            if (match.status) row.status = match.status;
+          }
+        }
+      }
+
+      const matches = [...byId.values()].map((m) => {
+        m.bodegaKeys = [...m.bodegaKeys];
+        m.bodegaLabel = m.bodegaPlayers.map((p) => displayName(p.name)).join(" · ");
+        return m;
+      });
+
+      matches.sort((a, b) => {
+        const da = `${a.date || ""}T${a.time || "99:99"}`;
+        const db = `${b.date || ""}T${b.time || "99:99"}`;
+        if (da !== db) return da < db ? -1 : 1;
+        return (a.court || "").localeCompare(b.court || "");
+      });
+
+      return { matches, bodegaNames };
+    }
+
+    function filteredMatches() {
+      const q = state.search.trim().toLowerCase();
+      return state.matches.filter((m) => {
+        if (state.filterKey !== "all" && !m.bodegaKeys.includes(state.filterKey)) {
+          return false;
+        }
+        if (!q) return true;
+        const hay = [
+          m.teamName,
+          m.opponent,
+          m.eventName,
+          m.stageLabel,
+          m.bodegaLabel,
+          ...m.bodegaPlayers.map((p) => p.name),
+        ].join(" ").toLowerCase();
+        return hay.includes(q);
+      });
+    }
+
+    function renderChips(players) {
+      const buttons = [
+        { key: "all", label: "All Bodega" },
+        ...players.map((p) => ({ key: p.key, label: displayName(p.name) })),
+      ];
+      els.chips.innerHTML = buttons.map((b) => {
+        const active = state.filterKey === b.key ? "active" : "";
+        const allCls = b.key === "all" ? "all" : "";
+        return `<button type="button" class="chip ${allCls} ${active}" data-key="${b.key}">${b.label}</button>`;
+      }).join("");
+    }
+
+    function renderDayNav(counts) {
+      els.dayNav.innerHTML = DAY_ORDER.map((date) => {
+        const meta = DAY_LABELS[date];
+        const count = counts[date] || 0;
+        return `<button type="button" class="day-btn" data-date="${date}">
+          ${meta.short}<span class="count">${count} game${count === 1 ? "" : "s"}</span>
+        </button>`;
+      }).join("");
+    }
+
+    function renderTimeline(list) {
+      const byDay = {};
+      for (const date of DAY_ORDER) byDay[date] = [];
+      for (const m of list) {
+        if (!byDay[m.date]) byDay[m.date] = [];
+        byDay[m.date].push(m);
+      }
+
+      const counts = {};
+      for (const date of DAY_ORDER) counts[date] = (byDay[date] || []).length;
+      renderDayNav(counts);
+
+      const sections = DAY_ORDER.map((date) => {
+        const items = byDay[date] || [];
+        if (!items.length) return "";
+        const meta = DAY_LABELS[date] || { title: date, sub: "" };
+        const cards = items.map((m) => {
+          return `<article class="match" id="m-${m.matchId}">
+            <div class="match-top">
+              <div class="time">${m.time || "TBD"}</div>
+              <div class="badges">
+                <span class="badge court">${m.court || "Court TBA"}</span>
+                ${statusBadge(m.status)}
+              </div>
+            </div>
+            <div class="event">${cleanEvent(m.eventName)}</div>
+            <div class="stage">${m.stageLabel || ""}</div>
+            <div class="teams">
+              <span class="us">${m.teamName || "TBD"}</span>
+              <span class="vs">vs</span>
+              <span class="them">${m.opponent || "TBD"}</span>
+            </div>
+            <div class="bodega-tag">Bodega: <em>${m.bodegaLabel}</em></div>
+          </article>`;
+        }).join("");
+
+        return `<section class="day-block" id="day-${date}">
+          <h2 class="day-title">${meta.title} <small>${meta.sub}</small></h2>
+          <div class="match-list">${cards}</div>
+        </section>`;
+      }).filter(Boolean).join("");
+
+      els.timeline.innerHTML = sections;
+      els.empty.hidden = list.length > 0;
+
+      const total = list.length;
+      const filterLabel = state.filterKey === "all"
+        ? "all Bodega athletes"
+        : displayName((state.data.players.find((p) => p.key === state.filterKey) || {}).name || "");
+      els.statusLine.innerHTML = `<strong>${total}</strong> match${total === 1 ? "" : "es"} · showing ${filterLabel}`;
+    }
+
+    function applyFilters() {
+      renderTimeline(filteredMatches());
+    }
+
+    async function loadData() {
+      els.error.hidden = true;
+      const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`Could not load schedule (${res.status})`);
+      const data = await res.json();
+      if (!data.players || !Array.isArray(data.players)) {
+        throw new Error("Schedule JSON is missing players");
+      }
+      state.data = data;
+      const built = buildMatchIndex(data);
+      state.matches = built.matches;
+
+      els.updatedLabel.textContent = formatUpdated(data.updatedAt);
+      if (data.scheduleUrl) els.officialLink.href = data.scheduleUrl;
+
+      renderChips(data.players);
+      applyFilters();
+    }
+
+    els.chips.addEventListener("click", (e) => {
+      const btn = e.target.closest(".chip");
+      if (!btn) return;
+      state.filterKey = btn.dataset.key;
+      [...els.chips.querySelectorAll(".chip")].forEach((c) => {
+        c.classList.toggle("active", c.dataset.key === state.filterKey);
+      });
+      applyFilters();
+    });
+
+    els.dayNav.addEventListener("click", (e) => {
+      const btn = e.target.closest(".day-btn");
+      if (!btn) return;
+      const target = document.getElementById(`day-${btn.dataset.date}`);
+      if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    els.search.addEventListener("input", () => {
+      state.search = els.search.value;
+      applyFilters();
+    });
+
+    loadData().catch((err) => {
+      els.error.hidden = false;
+      els.error.textContent = err.message || String(err);
+    });
+
+    // Soft live refresh while the tab is open
+    setInterval(() => {
+      loadData().catch(() => {});
+    }, 3 * 60 * 1000);
+  </script>
+</body>
+</html>

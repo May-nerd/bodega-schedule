@@ -1,0 +1,1898 @@
+{
+  "updatedAt": "2026-07-23T12:14:50.132934+00:00",
+  "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
+  "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
+  "event": {
+    "name": "Baseline Cup 2026",
+    "venue": "Habagat Sports Center, Kalibo",
+    "dates": "Jul 24–26, 2026"
+  },
+  "players": [
+    {
+      "key": "nalangan, clyde",
+      "name": "Nalangan, Clyde",
+      "entries": [
+        {
+          "eventName": "Intermediate Men's Doubles (16 Pairs)",
+          "teamName": "Acsay, Leo Vincent / Nalangan, Clyde",
+          "partner": "Acsay, Leo Vincent",
+          "poolLabel": "Group C",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group C · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "17:45",
+              "court": "Court 2",
+              "opponent": "Bilibli, Raymund / Sajonia, Kalvin",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 76
+            },
+            {
+              "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group C · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "18:15",
+              "court": "Court 3",
+              "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 83
+            },
+            {
+              "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group C · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "18:45",
+              "court": "Court 3",
+              "opponent": "Mabasa, Nathan / Manikan, Brahms Marlowe",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 85
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Men's Doubles (24 Pairs)",
+          "teamName": "Acsay, Leo Vincent / Nalangan, Clyde",
+          "partner": "Acsay, Leo Vincent",
+          "poolLabel": "Group C",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "c5c541ea-54d5-4599-bcd2-7f3628365b4f",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "08:15",
+              "court": "Court 2",
+              "opponent": "Oribe, Carl Christian / Alvarez, Ashton James",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 41
+            },
+            {
+              "matchId": "f9f6843f-0764-449e-9e19-593d1ed41287",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "09:00",
+              "court": "Court 1",
+              "opponent": "Carmelo, Paul / Tupas, Neco",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 49
+            },
+            {
+              "matchId": "b224a196-54a4-4471-a7b5-6320fabbf22e",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "09:30",
+              "court": "Court 2",
+              "opponent": "Capispisan, Dominguito / Gonzaga, Angelo Galileo",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 46
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Mixed Doubles (22 Pairs)",
+          "teamName": "Canete, Patricia Marie / Nalangan, Clyde",
+          "partner": "Canete, Patricia Marie",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "704f418c-676e-4bf7-b8bf-eb282342f4d9",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "15:45",
+              "court": "Court 1",
+              "opponent": "Coching, Nic / Yap, Liezl",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 75
+            },
+            {
+              "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "16:15",
+              "court": "Court 1",
+              "opponent": "Forro, Edalrehce / Rafols, Jan",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 77
+            },
+            {
+              "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "16:45",
+              "court": "Court 2",
+              "opponent": "Terencio, Katrina / Auto, Tata",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 72
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "canete, patricia marie",
+      "name": "Canete, Patricia Marie",
+      "entries": [
+        {
+          "eventName": "Novice Mixed Doubles (22 Pairs)",
+          "teamName": "Canete, Patricia Marie / Nalangan, Clyde",
+          "partner": "Nalangan, Clyde",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "704f418c-676e-4bf7-b8bf-eb282342f4d9",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "15:45",
+              "court": "Court 1",
+              "opponent": "Coching, Nic / Yap, Liezl",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 75
+            },
+            {
+              "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "16:15",
+              "court": "Court 1",
+              "opponent": "Forro, Edalrehce / Rafols, Jan",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 77
+            },
+            {
+              "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "16:45",
+              "court": "Court 2",
+              "opponent": "Terencio, Katrina / Auto, Tata",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 72
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Women's Doubles (16 Pairs)",
+          "teamName": "Canete, Patricia Marie / Delos Santos, Allyssah Marie",
+          "partner": "Delos Santos, Allyssah Marie",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "f8d464fa-2138-466f-84e8-631d6e77d91d",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:15",
+              "court": "Court 3",
+              "opponent": "Ricamonte, Stephanie Erica Louise / Tabañar, Bianca Ysobel",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 57
+            },
+            {
+              "matchId": "c1552da6-86fe-4ec7-97ec-7421475069e0",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:45",
+              "court": "Court 1",
+              "opponent": "Forro, Edalrehce / Gimay, Janella Anne Mary",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 60
+            },
+            {
+              "matchId": "b87efdbe-4d0d-4afd-b396-a1e9572b97ba",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "12:15",
+              "court": "Court 2",
+              "opponent": "Hertas, Jamie Marie / Suoberon, Mary Kirby Shane",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 57
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vargas, maynard",
+      "name": "Vargas, Maynard",
+      "entries": [
+        {
+          "eventName": "Beginner Men's Doubles (24 Pairs)",
+          "teamName": "Vargas, Maynard / Ylanan, Harvey",
+          "partner": "Ylanan, Harvey",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "ce933e5b-fe6c-42f9-a0e4-50c743ed3f3b",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:00",
+              "court": "Court 3",
+              "opponent": "Capispisan, Dominguito / Gonzaga, Angelo Galileo",
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 0
+            },
+            {
+              "matchId": "1726c207-3918-48cf-ad49-d19c8498485d",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:45",
+              "court": "Court 1",
+              "opponent": "Balbastro, Ken / Tolentino, Niño",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 3
+            },
+            {
+              "matchId": "7a1fcd11-7aa8-400b-b5fe-f268ff390200",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "09:15",
+              "court": "Court 3",
+              "opponent": "Rafols, Jan / Villa, Christian",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 5
+            }
+          ]
+        },
+        {
+          "eventName": "Beginner Mixed Doubles (24 Pairs)",
+          "teamName": "Tirol, Jarre May / Vargas, Maynard",
+          "partner": "Tirol, Jarre May",
+          "poolLabel": "Group D",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "45f55584-0b9c-42d5-916b-e6774585cb16",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group D · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "14:45",
+              "court": "Court 1",
+              "opponent": "Gonzales, Shanie Maye / Abarro, John Paul",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 27
+            },
+            {
+              "matchId": "65612e49-8cb0-4bee-b8b6-0ca3e77110c0",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group D · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "15:15",
+              "court": "Court 3",
+              "opponent": "Huesca, Adrian / De Ocampo, Francesca",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 29
+            },
+            {
+              "matchId": "247d1a7b-8767-4f0b-b8fb-b68a5db87e21",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group D · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "15:45",
+              "court": "Court 2",
+              "opponent": "Lima, Christian / Honigmann, Denise Niña",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 31
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "vargas, mary celeste",
+      "name": "Vargas, Mary Celeste",
+      "entries": [
+        {
+          "eventName": "Novice Women's Doubles (16 Pairs)",
+          "teamName": "Baltazar, Irish Gail / Vargas, Mary Celeste",
+          "partner": "Baltazar, Irish Gail",
+          "poolLabel": "Group A",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "91a65880-9e18-4474-9a4c-418d1adebc69",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group A · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "10:45",
+              "court": "Court 2",
+              "opponent": "Alomajan, Lorilee / Santos, Martha Elizabeth",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 51
+            },
+            {
+              "matchId": "780a4a02-701e-4201-bd17-16314fb258da",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group A · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:15",
+              "court": "Court 2",
+              "opponent": "Alba, April Lyn / Vicente, Jonabeth",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 53
+            },
+            {
+              "matchId": "5936a8f1-45b8-4b92-995d-c891ab0e2be2",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group A · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:45",
+              "court": "Court 3",
+              "opponent": "Moises, Eleonor / Sevillano, Eunice",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ylanan, harvey",
+      "name": "Ylanan, Harvey",
+      "entries": [
+        {
+          "eventName": "Beginner Men's Doubles (24 Pairs)",
+          "teamName": "Vargas, Maynard / Ylanan, Harvey",
+          "partner": "Vargas, Maynard",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "ce933e5b-fe6c-42f9-a0e4-50c743ed3f3b",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:00",
+              "court": "Court 3",
+              "opponent": "Capispisan, Dominguito / Gonzaga, Angelo Galileo",
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 0
+            },
+            {
+              "matchId": "1726c207-3918-48cf-ad49-d19c8498485d",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:45",
+              "court": "Court 1",
+              "opponent": "Balbastro, Ken / Tolentino, Niño",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 3
+            },
+            {
+              "matchId": "7a1fcd11-7aa8-400b-b5fe-f268ff390200",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "09:15",
+              "court": "Court 3",
+              "opponent": "Rafols, Jan / Villa, Christian",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ileto, archie",
+      "name": "Ileto, Archie",
+      "entries": [
+        {
+          "eventName": "Beginner Men's Doubles (24 Pairs)",
+          "teamName": "Ileto, Archie / Torres, Paul Patrick",
+          "partner": "Torres, Paul Patrick",
+          "poolLabel": "Group E",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "f5156db7-e197-45b6-bc49-0ba559430e82",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group E · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "09:30",
+              "court": "Court 3",
+              "opponent": "Lim, Juan / Yu, Jantzen",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 6
+            },
+            {
+              "matchId": "ad1400cc-4079-41b1-a5a9-03ee09cd3552",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group E · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "10:15",
+              "court": "Court 1",
+              "opponent": "Abayon, Marvin / Inaudito, Roelene",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 9
+            },
+            {
+              "matchId": "effeb4bd-48d0-4cb9-ac37-b003c7bf9910",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group E · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "10:45",
+              "court": "Court 1",
+              "opponent": "Enriquez, Gian Jess / Odrunia, Mark Lawrence",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 11
+            }
+          ]
+        },
+        {
+          "eventName": "Beginner Mixed Doubles (24 Pairs)",
+          "teamName": "Alcaraz, Janine / Ileto, Archie",
+          "partner": "Alcaraz, Janine",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "51112089-e774-4670-92e4-6c06d7e8ec71",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "14:00",
+              "court": "Court 3",
+              "opponent": "Balbastro, Ken / Quimpo, Ghayzel",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 24
+            },
+            {
+              "matchId": "a34ea502-e830-4e1c-a50e-45a56c1e67dd",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "14:30",
+              "court": "Court 2",
+              "opponent": "Vallejo, Rona Alegria / Vallejo, Rainier Paolo",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 26
+            },
+            {
+              "matchId": "e8324c23-294d-4cf1-bd67-2443ffa7614f",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "15:15",
+              "court": "Court 2",
+              "opponent": "Gardose, Harry Angelo / Sy, Erykah Heather",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "torres, paul patrick",
+      "name": "Torres, Paul Patrick",
+      "entries": [
+        {
+          "eventName": "Beginner Men's Doubles (24 Pairs)",
+          "teamName": "Ileto, Archie / Torres, Paul Patrick",
+          "partner": "Ileto, Archie",
+          "poolLabel": "Group E",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "f5156db7-e197-45b6-bc49-0ba559430e82",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group E · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "09:30",
+              "court": "Court 3",
+              "opponent": "Lim, Juan / Yu, Jantzen",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 6
+            },
+            {
+              "matchId": "ad1400cc-4079-41b1-a5a9-03ee09cd3552",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group E · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "10:15",
+              "court": "Court 1",
+              "opponent": "Abayon, Marvin / Inaudito, Roelene",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 9
+            },
+            {
+              "matchId": "effeb4bd-48d0-4cb9-ac37-b003c7bf9910",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group E · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "10:45",
+              "court": "Court 1",
+              "opponent": "Enriquez, Gian Jess / Odrunia, Mark Lawrence",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "catunao, joy",
+      "name": "Catunao, Joy",
+      "entries": [
+        {
+          "eventName": "Beginner Men's Doubles (24 Pairs)",
+          "teamName": "Catunao, Joy / Masangya, Marc Nher",
+          "partner": "Masangya, Marc Nher",
+          "poolLabel": "Group C",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "b438b88f-3a45-4ece-ab1d-341a04253745",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:15",
+              "court": "Court 3",
+              "opponent": "Lehayan, Vassimoff / Loberiza, Ejay",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 1
+            },
+            {
+              "matchId": "c97244db-6c22-4a9c-bf5b-959feb2d102c",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:45",
+              "court": "Court 3",
+              "opponent": "Huesca, Adrian / Lima, Christian",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 3
+            },
+            {
+              "matchId": "b16d92e4-5968-4a7c-9366-2f6a80611638",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "09:30",
+              "court": "Court 2",
+              "opponent": "Mendoza, Deann Angelo / Mendoza, Marc Dominic",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "masangya, marc nher",
+      "name": "Masangya, Marc Nher",
+      "entries": [
+        {
+          "eventName": "Beginner Men's Doubles (24 Pairs)",
+          "teamName": "Catunao, Joy / Masangya, Marc Nher",
+          "partner": "Catunao, Joy",
+          "poolLabel": "Group C",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "b438b88f-3a45-4ece-ab1d-341a04253745",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:15",
+              "court": "Court 3",
+              "opponent": "Lehayan, Vassimoff / Loberiza, Ejay",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 1
+            },
+            {
+              "matchId": "c97244db-6c22-4a9c-bf5b-959feb2d102c",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:45",
+              "court": "Court 3",
+              "opponent": "Huesca, Adrian / Lima, Christian",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 3
+            },
+            {
+              "matchId": "b16d92e4-5968-4a7c-9366-2f6a80611638",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "09:30",
+              "court": "Court 2",
+              "opponent": "Mendoza, Deann Angelo / Mendoza, Marc Dominic",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "francisco, louie andrew",
+      "name": "Francisco, Louie Andrew",
+      "entries": [
+        {
+          "eventName": "Novice Men's Doubles (24 Pairs)",
+          "teamName": "Alba, John Richard / Francisco, Louie Andrew",
+          "partner": "Alba, John Richard",
+          "poolLabel": "Group D",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "c6c6e0e9-6791-4c27-9c4a-d363a55280fc",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group D · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "08:30",
+              "court": "Court 2",
+              "opponent": "Resico, Joseph Stephen / Danieles, Gaven Fletcher",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 42
+            },
+            {
+              "matchId": "4254dff1-b724-4c54-8980-47cd2b0c1496",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group D · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "09:45",
+              "court": "Court 3",
+              "opponent": "Gallo, Sean Raphael / Chung, Whiram",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 51
+            },
+            {
+              "matchId": "8a8c9988-47bc-4f64-b371-08bf3c3417e0",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group D · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "10:15",
+              "court": "Court 3",
+              "opponent": "David, Albert Roy / Castor, Christian",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 53
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "de guzman, john carlo",
+      "name": "De Guzman, John Carlo",
+      "entries": [
+        {
+          "eventName": "Beginner Men's Doubles (24 Pairs)",
+          "teamName": "De Guzman, John Carlo / Lucerio, Brian Matthew",
+          "partner": "Lucerio, Brian Matthew",
+          "poolLabel": "Group A",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "9cdd6efe-2199-4594-8320-0b031e083bcb",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group A · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:00",
+              "court": "Court 2",
+              "opponent": "Esmeralda, Jian / Teodosio, Kevin",
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 0
+            },
+            {
+              "matchId": "1f45fe44-1263-4cd8-b312-b78ea9499b31",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group A · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:30",
+              "court": "Court 3",
+              "opponent": "Bienes, Fitzgerald / Mendoza, Mc Klint",
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 2
+            },
+            {
+              "matchId": "e16b67a2-d7be-4b8e-9d05-b2907f7e7b8c",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group A · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "09:00",
+              "court": "Court 3",
+              "opponent": "Morales, Jones / Nacar, Ariel Luis Joaquin",
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "baltazar, irish gail",
+      "name": "Baltazar, Irish Gail",
+      "entries": [
+        {
+          "eventName": "Beginner Mixed Doubles (24 Pairs)",
+          "teamName": "Baltazar, Irish Gail / Martinez, Jeun Aldrich",
+          "partner": "Martinez, Jeun Aldrich",
+          "poolLabel": "Group E",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "8f4992d9-9523-4b3b-a47e-5b0f3bc47ec9",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group E · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "15:30",
+              "court": "Court 2",
+              "opponent": "Biray, Lady Yzabelle / Bautista, Darell",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 30
+            },
+            {
+              "matchId": "a7ccde9a-4a0b-4337-b266-b12035d7a79f",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group E · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "16:00",
+              "court": "Court 1",
+              "opponent": "Gumban, Jestoni / Jurilla, Joelly",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 32
+            },
+            {
+              "matchId": "a2a55280-17bd-4de7-9b9a-18288b356f7e",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group E · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "16:45",
+              "court": "Court 1",
+              "opponent": "Meñez, Cherry / Yu, Alvin",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 34
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Women's Doubles (16 Pairs)",
+          "teamName": "Baltazar, Irish Gail / Vargas, Mary Celeste",
+          "partner": "Vargas, Mary Celeste",
+          "poolLabel": "Group A",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "91a65880-9e18-4474-9a4c-418d1adebc69",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group A · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "10:45",
+              "court": "Court 2",
+              "opponent": "Alomajan, Lorilee / Santos, Martha Elizabeth",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 51
+            },
+            {
+              "matchId": "780a4a02-701e-4201-bd17-16314fb258da",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group A · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:15",
+              "court": "Court 2",
+              "opponent": "Alba, April Lyn / Vicente, Jonabeth",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 53
+            },
+            {
+              "matchId": "5936a8f1-45b8-4b92-995d-c891ab0e2be2",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group A · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:45",
+              "court": "Court 3",
+              "opponent": "Moises, Eleonor / Sevillano, Eunice",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 59
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lucerio, brian matthew",
+      "name": "Lucerio, Brian Matthew",
+      "entries": [
+        {
+          "eventName": "Beginner Men's Doubles (24 Pairs)",
+          "teamName": "De Guzman, John Carlo / Lucerio, Brian Matthew",
+          "partner": "De Guzman, John Carlo",
+          "poolLabel": "Group A",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "9cdd6efe-2199-4594-8320-0b031e083bcb",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group A · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:00",
+              "court": "Court 2",
+              "opponent": "Esmeralda, Jian / Teodosio, Kevin",
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 0
+            },
+            {
+              "matchId": "1f45fe44-1263-4cd8-b312-b78ea9499b31",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group A · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "08:30",
+              "court": "Court 3",
+              "opponent": "Bienes, Fitzgerald / Mendoza, Mc Klint",
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 2
+            },
+            {
+              "matchId": "e16b67a2-d7be-4b8e-9d05-b2907f7e7b8c",
+              "eventName": "Beginner Men's Doubles (24 Pairs)",
+              "stageLabel": "Group A · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "09:00",
+              "court": "Court 3",
+              "opponent": "Morales, Jones / Nacar, Ariel Luis Joaquin",
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "acsay, leo vincent",
+      "name": "Acsay, Leo Vincent",
+      "entries": [
+        {
+          "eventName": "Intermediate Men's Doubles (16 Pairs)",
+          "teamName": "Acsay, Leo Vincent / Nalangan, Clyde",
+          "partner": "Nalangan, Clyde",
+          "poolLabel": "Group C",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group C · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "17:45",
+              "court": "Court 2",
+              "opponent": "Bilibli, Raymund / Sajonia, Kalvin",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 76
+            },
+            {
+              "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group C · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "18:15",
+              "court": "Court 3",
+              "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 83
+            },
+            {
+              "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group C · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "18:45",
+              "court": "Court 3",
+              "opponent": "Mabasa, Nathan / Manikan, Brahms Marlowe",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 85
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Men's Doubles (24 Pairs)",
+          "teamName": "Acsay, Leo Vincent / Nalangan, Clyde",
+          "partner": "Nalangan, Clyde",
+          "poolLabel": "Group C",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "c5c541ea-54d5-4599-bcd2-7f3628365b4f",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "08:15",
+              "court": "Court 2",
+              "opponent": "Oribe, Carl Christian / Alvarez, Ashton James",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 41
+            },
+            {
+              "matchId": "f9f6843f-0764-449e-9e19-593d1ed41287",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "09:00",
+              "court": "Court 1",
+              "opponent": "Carmelo, Paul / Tupas, Neco",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 49
+            },
+            {
+              "matchId": "b224a196-54a4-4471-a7b5-6320fabbf22e",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group C · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "09:30",
+              "court": "Court 2",
+              "opponent": "Capispisan, Dominguito / Gonzaga, Angelo Galileo",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 46
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "delos santos, allyssah marie",
+      "name": "Delos Santos, Allyssah Marie",
+      "entries": [
+        {
+          "eventName": "Beginner Women's Doubles (23 Pairs)",
+          "teamName": "Delos Santos, Allyssah Marie / Tabifranca, Imari",
+          "partner": "Tabifranca, Imari",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "d8028974-5d17-4144-82f1-f8d0073ba022",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "11:00",
+              "court": "Court 1",
+              "opponent": "Layson, Celia Therese / Layson, Maria Isabel",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 12
+            },
+            {
+              "matchId": "511f9212-b41f-46de-b490-b5d9d1b3e38f",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "11:45",
+              "court": "Court 1",
+              "opponent": "Sacapaño, Jhenyfer / Reyes, Jenny Ann",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 15
+            },
+            {
+              "matchId": "24e0173b-340c-44b7-8bad-59f140bb1605",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "12:15",
+              "court": "Court 3",
+              "opponent": "Galvan, Erich Mae / Moises, Eleonor",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 17
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Mixed Doubles (22 Pairs)",
+          "teamName": "Delos Santos, Allyssah Marie / Alvarez, Ashton James",
+          "partner": "Alvarez, Ashton James",
+          "poolLabel": "Group E",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "6337c6bb-7114-4c38-bb84-fbccd9e2fce5",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group E · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "15:00",
+              "court": "Court 3",
+              "opponent": "Tabanar, Sergei Benjamin / Tabañar, Bianca Ysobel",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 70
+            },
+            {
+              "matchId": "ed10a413-9792-4837-8b16-9c7988b95674",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group E · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "16:00",
+              "court": "Court 1",
+              "opponent": "Mapa, Julia Marie / Quebrar, John Nelson",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 76
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Women's Doubles (16 Pairs)",
+          "teamName": "Canete, Patricia Marie / Delos Santos, Allyssah Marie",
+          "partner": "Canete, Patricia Marie",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "f8d464fa-2138-466f-84e8-631d6e77d91d",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:15",
+              "court": "Court 3",
+              "opponent": "Ricamonte, Stephanie Erica Louise / Tabañar, Bianca Ysobel",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 57
+            },
+            {
+              "matchId": "c1552da6-86fe-4ec7-97ec-7421475069e0",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:45",
+              "court": "Court 1",
+              "opponent": "Forro, Edalrehce / Gimay, Janella Anne Mary",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 60
+            },
+            {
+              "matchId": "b87efdbe-4d0d-4afd-b396-a1e9572b97ba",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "12:15",
+              "court": "Court 2",
+              "opponent": "Hertas, Jamie Marie / Suoberon, Mary Kirby Shane",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 57
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "tirol, jarre may",
+      "name": "Tirol, Jarre May",
+      "entries": [
+        {
+          "eventName": "Beginner Mixed Doubles (24 Pairs)",
+          "teamName": "Tirol, Jarre May / Vargas, Maynard",
+          "partner": "Vargas, Maynard",
+          "poolLabel": "Group D",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "45f55584-0b9c-42d5-916b-e6774585cb16",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group D · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "14:45",
+              "court": "Court 1",
+              "opponent": "Gonzales, Shanie Maye / Abarro, John Paul",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 27
+            },
+            {
+              "matchId": "65612e49-8cb0-4bee-b8b6-0ca3e77110c0",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group D · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "15:15",
+              "court": "Court 3",
+              "opponent": "Huesca, Adrian / De Ocampo, Francesca",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 29
+            },
+            {
+              "matchId": "247d1a7b-8767-4f0b-b8fb-b68a5db87e21",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group D · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "15:45",
+              "court": "Court 2",
+              "opponent": "Lima, Christian / Honigmann, Denise Niña",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 31
+            }
+          ]
+        },
+        {
+          "eventName": "Beginner Women's Doubles (23 Pairs)",
+          "teamName": "Quimpo, Ghayzel / Tirol, Jarre May",
+          "partner": "Quimpo, Ghayzel",
+          "poolLabel": "Group C",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "d0fcab75-d893-4da4-808e-ac3cbb0e1c0d",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group C · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "11:30",
+              "court": "Court 1",
+              "opponent": "Rovero, Dot / Ibabao, Bianca",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 14
+            },
+            {
+              "matchId": "0d725cb7-01f2-4f8c-8b2a-ab1952ed2e52",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group C · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "12:30",
+              "court": "Court 3",
+              "opponent": "Gonzaga, Jethrese Anne / Gonzaga-Iquiña, Jessa Lynn",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 18
+            },
+            {
+              "matchId": "4b00ca21-234f-47b5-aab0-2b2128019283",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group C · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "13:15",
+              "court": "Court 1",
+              "opponent": "Alba, April Lyn / Fuentes, Gracia Gay",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "fuentes, gracia gay",
+      "name": "Fuentes, Gracia Gay",
+      "entries": [
+        {
+          "eventName": "Beginner Mixed Doubles (24 Pairs)",
+          "teamName": "Aranas, Kyle / Fuentes, Gracia Gay",
+          "partner": "Aranas, Kyle",
+          "poolLabel": "Group F",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "e74ebdc1-6c52-4e63-8c5d-951410c39362",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group F · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "16:00",
+              "court": "Court 3",
+              "opponent": "Garcia, Aira / Panuntan, Lyndon",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 32
+            },
+            {
+              "matchId": "3a234242-de26-48df-abea-1c09ddbe141f",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group F · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "16:30",
+              "court": "Court 2",
+              "opponent": "Rovero, Dot / Mendoza, Deann Angelo",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 33
+            },
+            {
+              "matchId": "134efe48-3a9e-4457-9fa8-5127ce874d8c",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "Group F · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "17:00",
+              "court": "Court 3",
+              "opponent": "Martin, Tricel / Mayor, Opet",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 34
+            }
+          ]
+        },
+        {
+          "eventName": "Beginner Women's Doubles (23 Pairs)",
+          "teamName": "Alba, April Lyn / Fuentes, Gracia Gay",
+          "partner": "Alba, April Lyn",
+          "poolLabel": "Group C",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "47ec4e89-821f-455d-b63e-e3f9d0ec4ab1",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group C · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "11:30",
+              "court": "Court 2",
+              "opponent": "Gonzaga, Jethrese Anne / Gonzaga-Iquiña, Jessa Lynn",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 14
+            },
+            {
+              "matchId": "11bae8b7-f67d-4c7b-a62f-71f97c2b56d7",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group C · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "12:30",
+              "court": "Court 1",
+              "opponent": "Rovero, Dot / Ibabao, Bianca",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 18
+            },
+            {
+              "matchId": "4b00ca21-234f-47b5-aab0-2b2128019283",
+              "eventName": "Beginner Women's Doubles (23 Pairs)",
+              "stageLabel": "Group C · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "13:15",
+              "court": "Court 1",
+              "opponent": "Quimpo, Ghayzel / Tirol, Jarre May",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 21
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Mixed Doubles (22 Pairs)",
+          "teamName": "Aguila, Lochinvar / Fuentes, Gracia Gay",
+          "partner": "Aguila, Lochinvar",
+          "poolLabel": "Group D",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "20d17597-9fec-4569-ad80-ebbe1c52d247",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group D · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "16:30",
+              "court": "Court 3",
+              "opponent": "Saad, Abraham / Te, Christie Marie",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 76
+            },
+            {
+              "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group D · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "17:00",
+              "court": "Court 2",
+              "opponent": "Barrios, Yani / Reyes, Zabdiel",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 73
+            },
+            {
+              "matchId": "79f0372b-35d3-471c-baa8-1032729c9ae6",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group D · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "17:30",
+              "court": "Court 2",
+              "opponent": "Mendoza, Marc Dominic / Ricamonte, Stephanie Erica Louise",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "reyes, zabdiel",
+      "name": "Reyes, Zabdiel",
+      "entries": [
+        {
+          "eventName": "Intermediate Men's Doubles (16 Pairs)",
+          "teamName": "Reyes, Zabdiel / Velasco, Gabrielle",
+          "partner": "Velasco, Gabrielle",
+          "poolLabel": "Group B",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "b390d300-d101-4d25-918e-5002b834a50c",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "19:15",
+              "court": "Court 3",
+              "opponent": "Panado, Jardine / Auto, Tata",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 87
+            },
+            {
+              "matchId": "eeb89dbb-d9f0-495e-875a-d4b65ec54e4e",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "19:45",
+              "court": "Court 2",
+              "opponent": "Licera, Gerald / Talento, Erwin",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 84
+            },
+            {
+              "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Group B · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "20:15",
+              "court": "Court 2",
+              "opponent": "Lee, John Carlo / Saad, Abraham",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 86
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Men's Doubles (24 Pairs)",
+          "teamName": "Reyes, Zabdiel / Velasco, Gabrielle",
+          "partner": "Velasco, Gabrielle",
+          "poolLabel": "Group F",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "383101e2-bc18-4e4d-bfbe-adc6dbd47b15",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group F · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "10:00",
+              "court": "Court 1",
+              "opponent": "Ablan, Shaun / Mayor, Jac",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 53
+            },
+            {
+              "matchId": "8f0bdcdb-2667-4c7b-a281-39dd3c67d4b0",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group F · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "10:30",
+              "court": "Court 1",
+              "opponent": "Quimpo, Jonathan / Tolentino, Niño",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 55
+            },
+            {
+              "matchId": "ea8b2dd1-7953-4973-bac8-f92ec61e1d75",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Group F · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "11:00",
+              "court": "Court 3",
+              "opponent": "Manikan, Brahms Marlowe / Aguila, Lochinvar",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 56
+            }
+          ]
+        },
+        {
+          "eventName": "Novice Mixed Doubles (22 Pairs)",
+          "teamName": "Barrios, Yani / Reyes, Zabdiel",
+          "partner": "Barrios, Yani",
+          "poolLabel": "Group D",
+          "rank": null,
+          "poolSize": null,
+          "played": 0,
+          "wins": 0,
+          "losses": 0,
+          "pointDiff": 0,
+          "matches": [
+            {
+              "matchId": "f0cb7718-4785-4c6f-aba3-03387dc0f4b4",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group D · R3",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "16:30",
+              "court": "Court 2",
+              "opponent": "Mendoza, Marc Dominic / Ricamonte, Stephanie Erica Louise",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 71
+            },
+            {
+              "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group D · R2",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "17:00",
+              "court": "Court 2",
+              "opponent": "Aguila, Lochinvar / Fuentes, Gracia Gay",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 73
+            },
+            {
+              "matchId": "4ad0e919-d11b-4e7c-87f4-b81f1b688051",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Group D · R1",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "17:30",
+              "court": "Court 1",
+              "opponent": "Saad, Abraham / Te, Christie Marie",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 82
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
