@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Calendar · Team Bodega Baseline Cup</title>
-  <meta name="description" content="Minimal calendar of Team Bodega match times at Baseline Cup 2026 — Fri–Sun at a glance." />
+  <meta name="description" content="Time-grid calendar of Team Bodega matches — see courts, overlaps, and conflicts at a glance." />
   <meta name="theme-color" content="#1b2437" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,6 +21,9 @@
       --ink: #1b2437;
       --muted: #5c667a;
       --card: #ffffff;
+      --conflict: #b33b2a;
+      --conflict-bg: #f8e4e0;
+      --slot-h: 28px;
       --radius: 14px;
       --shadow: 0 8px 24px rgba(27, 36, 55, 0.08);
     }
@@ -35,159 +38,189 @@
         radial-gradient(circle at 88% 0%, rgba(27, 36, 55, 0.1), transparent 40%),
         var(--cream);
     }
-    .wrap { width: min(980px, 100%); margin: 0 auto; padding: 1rem 0.75rem 3rem; }
+    .wrap { width: min(960px, 100%); margin: 0 auto; padding: 1rem 0.65rem 3rem; }
     header.hero {
       background: linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 70%, #243450 100%);
       color: var(--cream);
       border-radius: 22px;
-      padding: 1.25rem 1.15rem 1.1rem;
+      padding: 1.2rem 1.1rem 1.05rem;
       box-shadow: var(--shadow);
       border-bottom: 5px solid var(--green);
-      margin: 0 0.25rem;
+      margin: 0 0.2rem;
     }
     .eyebrow {
-      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em;
-      text-transform: uppercase; color: var(--tan); margin-bottom: 0.45rem;
+      font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--tan); margin-bottom: 0.4rem;
     }
     h1 {
       font-family: "Fraunces", Georgia, serif;
-      font-size: clamp(1.5rem, 5vw, 2rem);
-      margin: 0 0 0.3rem; line-height: 1.15;
+      font-size: clamp(1.45rem, 5vw, 1.95rem);
+      margin: 0 0 0.25rem; line-height: 1.15;
     }
-    .subtitle { margin: 0; color: #c9d2e0; font-size: 0.88rem; }
+    .subtitle { margin: 0; color: #c9d2e0; font-size: 0.86rem; }
     .nav {
-      display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 0.9rem;
+      display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.85rem;
     }
     .nav a {
-      color: var(--cream); text-decoration: none; font-size: 0.78rem; font-weight: 600;
-      border: 1px solid rgba(227,214,193,0.35); border-radius: 999px; padding: 0.32rem 0.7rem;
+      color: var(--cream); text-decoration: none; font-size: 0.76rem; font-weight: 600;
+      border: 1px solid rgba(227,214,193,0.35); border-radius: 999px; padding: 0.3rem 0.65rem;
       background: rgba(255,255,255,0.06);
     }
+
+    .panel {
+      margin: 0.85rem 0.2rem 0;
+      background: var(--card);
+      border: 1px solid rgba(227,214,193,0.9);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 0.85rem 0.8rem;
+    }
+    .panel h2 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 1.05rem;
+      margin: 0 0 0.55rem;
+    }
+    .conflicts:empty::before {
+      content: "No overlapping Bodega games for this filter.";
+      color: var(--muted); font-size: 0.84rem;
+    }
+    .conflict-row {
+      display: flex; gap: 0.55rem; align-items: flex-start;
+      padding: 0.55rem 0.6rem; border-radius: 10px;
+      background: var(--conflict-bg); border: 1px solid rgba(179,59,42,0.25);
+      margin-bottom: 0.45rem; font-size: 0.82rem;
+    }
+    .conflict-row .when {
+      flex: 0 0 auto; font-weight: 800; color: var(--conflict);
+      font-family: "Fraunces", Georgia, serif; font-size: 0.95rem;
+      min-width: 4.2rem;
+    }
+    .conflict-row ul { margin: 0; padding-left: 1.1rem; }
+    .conflict-row li { margin: 0.1rem 0; }
+
+    .day-tabs {
+      display: flex; gap: 0.4rem; margin: 0.85rem 0.2rem 0.55rem;
+    }
+    .day-tab {
+      flex: 1; border: 1px solid var(--tan); background: var(--cream-dark);
+      color: var(--muted); border-radius: 10px; padding: 0.55rem 0.35rem;
+      font: inherit; font-size: 0.78rem; font-weight: 700; cursor: pointer;
+    }
+    .day-tab.active { background: var(--navy); border-color: var(--navy); color: var(--cream); }
+    .day-tab .sub { display: block; font-weight: 500; opacity: 0.8; font-size: 0.68rem; margin-top: 0.12rem; }
+
     .toolbar {
-      margin: 0.9rem 0.25rem 0.65rem;
-      display: grid; gap: 0.55rem;
+      margin: 0 0.2rem 0.65rem; display: grid; gap: 0.5rem;
     }
     .search {
       width: 100%; border: 1px solid var(--tan); background: var(--card);
-      border-radius: 12px; padding: 0.7rem 0.85rem; font: inherit; font-size: 0.92rem;
-      box-shadow: var(--shadow);
+      border-radius: 12px; padding: 0.65rem 0.8rem; font: inherit; font-size: 0.9rem;
     }
     .chips {
-      display: flex; flex-wrap: nowrap; gap: 0.4rem; overflow-x: auto;
-      padding-bottom: 0.15rem; -webkit-overflow-scrolling: touch;
+      display: flex; flex-wrap: nowrap; gap: 0.35rem; overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
     }
     .chip {
       flex: 0 0 auto; border: 1px solid var(--tan); background: var(--card);
-      border-radius: 999px; padding: 0.4rem 0.75rem; font: inherit; font-size: 0.76rem;
-      font-weight: 600; cursor: pointer; color: var(--ink);
+      border-radius: 999px; padding: 0.35rem 0.7rem; font: inherit; font-size: 0.74rem;
+      font-weight: 600; cursor: pointer;
     }
     .chip.active { background: var(--navy); border-color: var(--navy); color: var(--cream); }
     .chip.all.active { background: var(--green); border-color: var(--green); }
-    .hint {
-      margin: 0 0.25rem 0.75rem; font-size: 0.78rem; color: var(--muted);
-    }
 
-    .cal-scroll {
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      padding: 0 0.25rem 0.5rem;
+    .legend {
+      display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 0 0.2rem 0.55rem;
+      font-size: 0.72rem; color: var(--muted); font-weight: 600;
     }
-    .cal {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(220px, 1fr));
-      gap: 0.65rem;
-      min-width: min(100%, 720px);
+    .legend span::before {
+      content: ""; display: inline-block; width: 0.7rem; height: 0.7rem;
+      border-radius: 3px; margin-right: 0.3rem; vertical-align: -0.1rem;
     }
-    @media (max-width: 700px) {
-      .cal { grid-template-columns: repeat(3, minmax(210px, 72vw)); }
-    }
-    .day-col {
-      background: var(--card);
-      border: 1px solid rgba(227,214,193,0.9);
+    .legend .ok::before { background: var(--green); }
+    .legend .busy::before { background: var(--conflict); }
+
+    .grid-wrap {
+      margin: 0 0.2rem;
+      overflow: auto;
+      border: 1px solid rgba(227,214,193,0.95);
       border-radius: 16px;
+      background: var(--card);
       box-shadow: var(--shadow);
-      overflow: hidden;
-      min-height: 280px;
+      max-height: min(78vh, 900px);
+      -webkit-overflow-scrolling: touch;
     }
-    .day-head {
-      background: var(--navy);
-      color: var(--cream);
-      padding: 0.7rem 0.75rem 0.65rem;
-      border-bottom: 3px solid var(--green);
-    }
-    .day-head .dow {
-      font-family: "Fraunces", Georgia, serif;
-      font-size: 1.05rem;
-      font-weight: 700;
-    }
-    .day-head .date {
-      font-size: 0.72rem;
-      color: var(--tan);
-      margin-top: 0.1rem;
-    }
-    .day-head .n {
-      float: right;
-      font-size: 0.72rem;
-      font-weight: 700;
-      background: rgba(255,255,255,0.1);
-      border-radius: 999px;
-      padding: 0.2rem 0.5rem;
-      margin-top: 0.15rem;
-    }
-    .slots { padding: 0.45rem; display: grid; gap: 0.35rem; }
-    .slot {
+    .grid {
       display: grid;
-      grid-template-columns: 3.1rem 1fr;
-      gap: 0.4rem;
-      align-items: start;
-      padding: 0.4rem 0.35rem;
-      border-radius: 10px;
-      background: var(--cream);
-      border: 1px solid transparent;
+      grid-template-columns: 3.4rem repeat(3, minmax(7.5rem, 1fr));
+      min-width: 360px;
+      position: relative;
     }
-    .slot:hover { border-color: var(--tan); }
-    .slot .t {
-      font-family: "Fraunces", Georgia, serif;
-      font-weight: 700;
-      font-size: 0.95rem;
-      color: var(--navy);
-      line-height: 1.2;
+    .corner, .col-head, .time-lab, .cell {
+      border-right: 1px solid #ece6da;
+      border-bottom: 1px solid #ece6da;
     }
-    .slot .court {
-      display: block;
-      font-size: 0.62rem;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      color: var(--green-hover);
-      margin-top: 0.15rem;
+    .corner, .col-head {
+      position: sticky; top: 0; z-index: 3;
+      background: var(--navy); color: var(--cream);
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+      text-transform: uppercase; text-align: center;
+      padding: 0.55rem 0.25rem;
     }
-    .slot .who {
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: var(--ink);
-      line-height: 1.25;
+    .corner { left: 0; z-index: 4; }
+    .time-lab {
+      position: sticky; left: 0; z-index: 2;
+      background: var(--cream-dark);
+      color: var(--muted);
+      font-size: 0.65rem; font-weight: 700;
+      text-align: right; padding: 0 0.35rem 0 0.15rem;
+      height: var(--slot-h); line-height: var(--slot-h);
     }
-    .slot .ev {
+    .time-lab.hour {
+      color: var(--navy); font-size: 0.72rem;
+      border-top: 1px solid rgba(27,36,55,0.18);
+    }
+    .cell {
+      height: var(--slot-h);
+      background: #fff;
+      position: relative;
+    }
+    .cell.hour { border-top: 1px solid rgba(27,36,55,0.12); }
+    .cell.conflict-band { background: rgba(179, 59, 42, 0.06); }
+
+    .block {
+      position: absolute;
+      left: 2px; right: 2px;
+      border-radius: 7px;
+      padding: 0.2rem 0.3rem;
       font-size: 0.65rem;
-      color: var(--muted);
-      margin-top: 0.15rem;
-      white-space: nowrap;
+      line-height: 1.15;
       overflow: hidden;
-      text-overflow: ellipsis;
+      z-index: 1;
+      border: 1px solid rgba(27,36,55,0.12);
+      box-shadow: 0 2px 6px rgba(27,36,55,0.08);
+      cursor: default;
     }
-    .empty-day {
-      padding: 1.25rem 0.75rem;
-      text-align: center;
-      color: var(--muted);
-      font-size: 0.82rem;
+    .block.ok {
+      background: linear-gradient(160deg, #3f8560, var(--green-hover));
+      color: #f5faf7;
+    }
+    .block.busy {
+      background: linear-gradient(160deg, #d85a48, var(--conflict));
+      color: #fff7f5;
+      border-color: rgba(120, 30, 20, 0.35);
+    }
+    .block .who { font-weight: 700; }
+    .block .meta { opacity: 0.9; font-size: 0.58rem; margin-top: 0.08rem; }
+
+    .status {
+      margin: 0.55rem 0.2rem 0; font-size: 0.78rem; color: var(--muted);
     }
     .err {
-      margin: 1rem 0.25rem; padding: 1rem; background: #f8e8e8;
+      margin: 1rem 0.2rem; padding: 1rem; background: #f8e8e8;
       border-radius: var(--radius); color: #9b3b3b;
     }
     footer {
-      margin: 1.5rem 0.25rem 0; padding: 1rem;
+      margin: 1.4rem 0.2rem 0; padding: 1rem;
       background: var(--navy); color: var(--tan); border-radius: 16px;
       text-align: center; font-size: 0.8rem;
     }
@@ -197,9 +230,9 @@
 <body>
   <div class="wrap">
     <header class="hero">
-      <div class="eyebrow">Team Bodega · At a glance</div>
+      <div class="eyebrow">Team Bodega · Time grid</div>
       <h1>Calendar</h1>
-      <p class="subtitle">Time · court · who — so friends know when to show up</p>
+      <p class="subtitle">Courts across the top, time down the side — red = Bodega games clash</p>
       <nav class="nav">
         <a href="index.html">Full schedule</a>
         <a href="when.html">When to go</a>
@@ -207,20 +240,31 @@
       </nav>
     </header>
 
+    <div class="day-tabs" id="dayTabs"></div>
     <div class="toolbar">
       <input id="search" class="search" type="search" placeholder="Filter athlete…" autocomplete="off" />
       <div id="chips" class="chips"></div>
     </div>
-    <p class="hint" id="status">Loading…</p>
 
-    <div class="cal-scroll">
-      <div id="cal" class="cal"></div>
+    <div class="legend">
+      <span class="ok">One Bodega game</span>
+      <span class="busy">Conflict (2+ at same time)</span>
     </div>
+
+    <section class="panel">
+      <h2>Conflicts this day</h2>
+      <div id="conflicts" class="conflicts"></div>
+    </section>
+
+    <div class="grid-wrap" id="gridWrap">
+      <div class="grid" id="grid"></div>
+    </div>
+    <p class="status" id="status">Loading…</p>
     <div id="error" class="err" hidden></div>
 
     <footer>
-      <p>Minimal Bodega-only calendar · times can change</p>
-      <p><a href="index.html">Open detailed match list →</a></p>
+      <p>Assumes ~45 min per match block for layout · times can change</p>
+      <p><a href="index.html">Detailed match list →</a></p>
     </footer>
   </div>
 
@@ -231,8 +275,17 @@
       { date: "2026-07-25", dow: "Saturday", label: "Jul 25" },
       { date: "2026-07-26", dow: "Sunday", label: "Jul 26" },
     ];
+    const COURTS = ["Court 1", "Court 2", "Court 3"];
+    const SLOT_MIN = 15;
+    const BLOCK_MIN = 45; // visual duration
 
-    const state = { data: null, matches: [], filterKey: "all", search: "" };
+    const state = {
+      data: null,
+      matches: [],
+      day: "2026-07-24",
+      filterKey: "all",
+      search: "",
+    };
 
     function shortName(full) {
       if (!full) return "";
@@ -247,10 +300,8 @@
       return full.split(/\s+/)[0];
     }
     function cleanEvent(name) {
-      return (name || "").replace(/\s*\(\d+\s*Pairs\)\s*$/i, "");
-    }
-    function shortEvent(name) {
-      return cleanEvent(name)
+      return (name || "")
+        .replace(/\s*\(\d+\s*Pairs\)\s*$/i, "")
         .replace(/Beginner /i, "Beg ")
         .replace(/Novice /i, "Nov ")
         .replace(/Intermediate /i, "Int ")
@@ -259,20 +310,29 @@
         .replace(/Women's Doubles/i, "WD")
         .replace(/Mixed Doubles/i, "XD");
     }
-    function courtShort(c) {
-      const m = (c || "").match(/(\d+)/);
-      return m ? "C" + m[1] : (c || "TBA");
+    function parseTime(t) {
+      if (!t || !/^\d{1,2}:\d{2}$/.test(t)) return null;
+      const [h, m] = t.split(":").map(Number);
+      return h * 60 + m;
+    }
+    function fmtTime(mins) {
+      const h = Math.floor(mins / 60);
+      const m = mins % 60;
+      return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
+    }
+    function courtIndex(court) {
+      const i = COURTS.indexOf(court);
+      if (i >= 0) return i;
+      const n = String(court || "").match(/(\d+)/);
+      return n ? Math.min(COURTS.length - 1, Math.max(0, Number(n[1]) - 1)) : 0;
     }
     function pairLabel(teamName, bodegaPlayers) {
-      // Prefer Bodega athlete first names from our roster when present
-      if (bodegaPlayers && bodegaPlayers.length) {
-        return bodegaPlayers.map((p) => firstName(p.name)).join(" / ");
-      }
+      if (bodegaPlayers?.length) return bodegaPlayers.map((p) => firstName(p.name)).join("/");
       if (!teamName) return "TBD";
       return teamName.split(/\s*\/\s*/).map((side) => {
         const parts = side.split(",").map((s) => s.trim());
         return parts.length >= 2 ? parts[1].split(/\s+/)[0] : side.trim().split(/\s+/)[0];
-      }).join(" / ");
+      }).join("/");
     }
 
     function buildMatches(data) {
@@ -312,22 +372,42 @@
       return [...byId.values()].map((m) => {
         m.bodegaKeys = [...m.bodegaKeys];
         m.who = pairLabel(m.teamName, m.bodegaPlayers);
+        m.startMin = parseTime(m.time);
         return m;
-      }).sort((a, b) => {
-        const ka = `${a.date}T${a.time || "99:99"}`;
-        const kb = `${b.date}T${b.time || "99:99"}`;
-        return ka < kb ? -1 : ka > kb ? 1 : 0;
       });
     }
 
     function filtered() {
       const q = state.search.trim().toLowerCase();
       return state.matches.filter((m) => {
+        if (m.date !== state.day) return false;
         if (state.filterKey !== "all" && !m.bodegaKeys.includes(state.filterKey)) return false;
         if (!q) return true;
         return [m.who, m.teamName, m.eventName, ...m.bodegaPlayers.map((p) => p.name)]
           .join(" ").toLowerCase().includes(q);
       });
+    }
+
+    function conflictTimes(list) {
+      const byTime = new Map();
+      for (const m of list) {
+        if (!m.time) continue;
+        if (!byTime.has(m.time)) byTime.set(m.time, []);
+        byTime.get(m.time).push(m);
+      }
+      return [...byTime.entries()]
+        .filter(([, arr]) => arr.length > 1)
+        .sort((a, b) => a[0].localeCompare(b[0]));
+    }
+
+    function renderTabs() {
+      document.getElementById("dayTabs").innerHTML = DAYS.map((d) => {
+        const n = state.matches.filter((m) => m.date === d.date).length;
+        const active = state.day === d.date ? "active" : "";
+        return `<button type="button" class="day-tab ${active}" data-date="${d.date}">
+          ${d.dow}<span class="sub">${d.label} · ${n} games</span>
+        </button>`;
+      }).join("");
     }
 
     function renderChips(players) {
@@ -341,43 +421,91 @@
       }).join("");
     }
 
-    function renderCal(list) {
-      const byDay = Object.fromEntries(DAYS.map((d) => [d.date, []]));
-      for (const m of list) {
-        if (!byDay[m.date]) byDay[m.date] = [];
-        byDay[m.date].push(m);
+    function renderConflicts(list) {
+      const conflicts = conflictTimes(list);
+      const el = document.getElementById("conflicts");
+      if (!conflicts.length) {
+        el.innerHTML = "";
+        return;
       }
-
-      document.getElementById("cal").innerHTML = DAYS.map((d) => {
-        const items = byDay[d.date] || [];
-        const body = items.length
-          ? `<div class="slots">${items.map((m) => `
-              <div class="slot">
-                <div>
-                  <div class="t">${m.time || "TBD"}</div>
-                  <span class="court">${courtShort(m.court)}</span>
-                </div>
-                <div>
-                  <div class="who">${m.who}</div>
-                  <div class="ev">${shortEvent(m.eventName)}${m.stageLabel ? " · " + m.stageLabel.replace(/Group /,"G") : ""}</div>
-                </div>
-              </div>`).join("")}</div>`
-          : `<div class="empty-day">No Bodega games yet</div>`;
-        return `<section class="day-col">
-          <div class="day-head">
-            <span class="n">${items.length}</span>
-            <div class="dow">${d.dow}</div>
-            <div class="date">${d.label}</div>
+      el.innerHTML = conflicts.map(([time, arr]) => `
+        <div class="conflict-row">
+          <div class="when">${time}</div>
+          <div>
+            <strong>${arr.length} Bodega games at once</strong>
+            <ul>${arr.map((m) =>
+              `<li>${m.court || "Court TBA"} — ${m.who} <span style="color:var(--muted)">(${cleanEvent(m.eventName)})</span>`
+            ).join("")}</ul>
           </div>
-          ${body}
-        </section>`;
-      }).join("");
-
-      document.getElementById("status").textContent =
-        `${list.length} Bodega match${list.length === 1 ? "" : "es"} on the calendar`;
+        </div>`).join("");
     }
 
-    function apply() { renderCal(filtered()); }
+    function renderGrid(list) {
+      const timed = list.filter((m) => m.startMin != null);
+      const conflictSet = new Set(conflictTimes(list).map(([t]) => t));
+
+      let start = 8 * 60;
+      let end = 20 * 60 + 15;
+      if (timed.length) {
+        start = Math.min(...timed.map((m) => m.startMin));
+        end = Math.max(...timed.map((m) => m.startMin + BLOCK_MIN));
+        start = Math.floor(start / 60) * 60;
+        end = Math.ceil(end / SLOT_MIN) * SLOT_MIN;
+      }
+      const slots = [];
+      for (let t = start; t < end; t += SLOT_MIN) slots.push(t);
+
+      const grid = document.getElementById("grid");
+      grid.style.setProperty("--slot-h", "28px");
+
+      let html = `<div class="corner">Time</div>`;
+      for (const c of COURTS) html += `<div class="col-head">${c.replace("Court ", "C")}</div>`;
+
+      for (const t of slots) {
+        const isHour = t % 60 === 0;
+        const label = isHour ? fmtTime(t) : (t % 60 === 30 ? ":30" : "");
+        html += `<div class="time-lab ${isHour ? "hour" : ""}">${label}</div>`;
+        for (let ci = 0; ci < COURTS.length; ci++) {
+          const band = conflictSet.has(fmtTime(t)) ? "conflict-band" : "";
+          html += `<div class="cell ${isHour ? "hour" : ""} ${band}" data-t="${t}" data-c="${ci}"></div>`;
+        }
+      }
+      grid.innerHTML = html;
+
+      // Place blocks
+      const cells = [...grid.querySelectorAll(".cell")];
+      const cellAt = (mins, courtIdx) => {
+        const row = Math.round((mins - start) / SLOT_MIN);
+        const idx = row * COURTS.length + courtIdx;
+        return cells[idx];
+      };
+
+      for (const m of timed) {
+        const ci = courtIndex(m.court);
+        const cell = cellAt(m.startMin, ci);
+        if (!cell) continue;
+        const spanSlots = Math.max(2, Math.round(BLOCK_MIN / SLOT_MIN));
+        const busy = conflictSet.has(m.time);
+        const block = document.createElement("div");
+        block.className = `block ${busy ? "busy" : "ok"}`;
+        block.style.height = `calc(${spanSlots} * var(--slot-h) - 4px)`;
+        block.style.top = "2px";
+        block.innerHTML = `<div class="who">${m.who}</div><div class="meta">${m.time} · ${cleanEvent(m.eventName)}</div>`;
+        block.title = `${m.time} ${m.court}\n${m.teamName}\n${m.eventName} ${m.stageLabel || ""}`;
+        cell.appendChild(block);
+      }
+
+      const dayMeta = DAYS.find((d) => d.date === state.day);
+      document.getElementById("status").innerHTML =
+        `<strong>${list.length}</strong> Bodega match${list.length === 1 ? "" : "es"} on ${dayMeta?.dow || ""}` +
+        (conflictSet.size ? ` · <strong style="color:var(--conflict)">${conflictSet.size} conflict time${conflictSet.size === 1 ? "" : "s"}</strong>` : " · no conflicts");
+    }
+
+    function apply() {
+      const list = filtered();
+      renderConflicts(list);
+      renderGrid(list);
+    }
 
     async function load() {
       const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
@@ -385,10 +513,21 @@
       const data = await res.json();
       state.data = data;
       state.matches = buildMatches(data);
+      // Default to first day that has games
+      const withGames = DAYS.find((d) => state.matches.some((m) => m.date === d.date));
+      if (withGames && !state.matches.some((m) => m.date === state.day)) state.day = withGames.date;
+      renderTabs();
       renderChips(data.players);
       apply();
     }
 
+    document.getElementById("dayTabs").addEventListener("click", (e) => {
+      const btn = e.target.closest(".day-tab");
+      if (!btn) return;
+      state.day = btn.dataset.date;
+      renderTabs();
+      apply();
+    });
     document.getElementById("chips").addEventListener("click", (e) => {
       const btn = e.target.closest(".chip");
       if (!btn) return;
