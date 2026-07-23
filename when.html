@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>When to go · Team Bodega Baseline Cup</title>
+  <meta name="description" content="Best times to watch Team Bodega at Baseline Cup 2026 — game density by day and hour." />
+  <meta name="theme-color" content="#1b2437" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #1b2437;
+      --navy-light: #2a3752;
+      --green: #387352;
+      --green-hover: #2d5e42;
+      --cream: #f9f8f3;
+      --cream-dark: #f0ebe1;
+      --tan: #e3d6c1;
+      --ink: #1b2437;
+      --muted: #5c667a;
+      --card: #ffffff;
+      --hot: #c45c26;
+      --radius: 14px;
+      --shadow: 0 8px 24px rgba(27, 36, 55, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "DM Sans", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(56, 115, 82, 0.12), transparent 35%),
+        radial-gradient(circle at 88% 0%, rgba(27, 36, 55, 0.1), transparent 40%),
+        var(--cream);
+    }
+    .wrap { width: min(820px, 100%); margin: 0 auto; padding: 1rem 1rem 3rem; }
+    header.hero {
+      background: linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 70%, #243450 100%);
+      color: var(--cream);
+      border-radius: 22px;
+      padding: 1.35rem 1.25rem 1.2rem;
+      box-shadow: var(--shadow);
+      border-bottom: 5px solid var(--green);
+    }
+    .eyebrow {
+      font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--tan); margin-bottom: 0.55rem;
+    }
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: clamp(1.55rem, 5.5vw, 2.1rem);
+      margin: 0 0 0.35rem; line-height: 1.15;
+    }
+    .subtitle { margin: 0; color: #c9d2e0; font-size: 0.92rem; }
+    .nav {
+      display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.95rem;
+    }
+    .nav a {
+      color: var(--cream); text-decoration: none; font-size: 0.8rem; font-weight: 600;
+      border: 1px solid rgba(227,214,193,0.35); border-radius: 999px; padding: 0.35rem 0.75rem;
+      background: rgba(255,255,255,0.06);
+    }
+    .tips {
+      margin-top: 1rem; display: grid; gap: 0.65rem;
+    }
+    .tip {
+      background: var(--card); border: 1px solid rgba(227,214,193,0.85);
+      border-radius: var(--radius); padding: 0.9rem 1rem; box-shadow: var(--shadow);
+    }
+    .tip strong { color: var(--green-hover); }
+    .tip .when {
+      font-family: "Fraunces", Georgia, serif; font-size: 1.15rem; font-weight: 700;
+      color: var(--navy); margin-top: 0.15rem;
+    }
+    .section-title {
+      font-family: "Fraunces", Georgia, serif; font-size: 1.15rem;
+      margin: 1.4rem 0 0.65rem;
+    }
+    .day-tabs { display: flex; gap: 0.4rem; margin-bottom: 0.75rem; }
+    .day-tab {
+      flex: 1; border: 1px solid var(--tan); background: var(--cream-dark);
+      color: var(--muted); border-radius: 10px; padding: 0.55rem 0.4rem;
+      font: inherit; font-size: 0.78rem; font-weight: 700; cursor: pointer;
+    }
+    .day-tab.active { background: var(--navy); border-color: var(--navy); color: var(--cream); }
+    .chart-card {
+      background: var(--card); border: 1px solid rgba(227,214,193,0.85);
+      border-radius: var(--radius); padding: 0.9rem 0.75rem 0.75rem; box-shadow: var(--shadow);
+    }
+    .bars {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(2.4rem, 1fr));
+      gap: 0.35rem; align-items: end; min-height: 180px;
+    }
+    .bar-col {
+      display: flex; flex-direction: column; align-items: center; gap: 0.25rem; height: 100%;
+      justify-content: flex-end;
+    }
+    .bar {
+      width: 100%; max-width: 2rem; border-radius: 8px 8px 4px 4px;
+      background: var(--green); min-height: 4px; transition: height 0.2s;
+    }
+    .bar.hot { background: var(--hot); }
+    .bar.warm { background: #d4a017; }
+    .bar-label {
+      font-size: 0.62rem; font-weight: 600; color: var(--muted);
+      writing-mode: horizontal-tb; text-align: center; line-height: 1.1;
+    }
+    .bar-count {
+      font-size: 0.68rem; font-weight: 700; color: var(--navy);
+    }
+    .heat-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .heat {
+      display: grid;
+      grid-template-columns: 3.2rem repeat(var(--cols), minmax(1.55rem, 1fr));
+      gap: 0.28rem; min-width: 560px; align-items: center;
+    }
+    .heat .corner, .heat .hlabel, .heat .vlabel {
+      font-size: 0.65rem; font-weight: 700; color: var(--muted); text-align: center;
+    }
+    .heat .vlabel { text-align: right; padding-right: 0.2rem; }
+    .cell {
+      aspect-ratio: 1; border-radius: 6px; background: #e8e4da;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.62rem; font-weight: 700; color: transparent;
+    }
+    .cell.on { color: #fff; }
+    .legend {
+      display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.75rem;
+      font-size: 0.72rem; color: var(--muted); align-items: center;
+    }
+    .swatch {
+      width: 0.85rem; height: 0.85rem; border-radius: 4px; display: inline-block;
+      vertical-align: middle; margin-right: 0.25rem;
+    }
+    .status { margin-top: 0.85rem; font-size: 0.78rem; color: var(--muted); }
+    footer {
+      margin-top: 2rem; padding: 1.1rem 1rem; background: var(--navy);
+      color: var(--tan); border-radius: 18px; text-align: center; font-size: 0.82rem;
+    }
+    footer a { color: #fff; font-weight: 600; }
+    .err {
+      margin-top: 1rem; padding: 1rem; background: #f8e8e8; border-radius: var(--radius); color: #9b3b3b;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="eyebrow">Team Bodega · Crowd guide</div>
+      <h1>When should friends show up?</h1>
+      <p class="subtitle">Bodega match density at Habagat · Fri–Sun, Jul 24–26</p>
+      <div class="nav">
+        <a href="index.html">← Full schedule</a>
+        <a href="https://picklepodium.vercel.app/t/1st-baseline-cup/schedule" target="_blank" rel="noopener">Official schedule</a>
+      </div>
+    </header>
+
+    <section class="tips" id="tips"></section>
+
+    <h2 class="section-title">Games per hour</h2>
+    <div class="day-tabs" id="dayTabs"></div>
+    <div class="chart-card">
+      <div class="bars" id="bars"></div>
+      <div class="legend">
+        <span><i class="swatch" style="background:var(--green)"></i> Normal</span>
+        <span><i class="swatch" style="background:#d4a017"></i> Busy</span>
+        <span><i class="swatch" style="background:var(--hot)"></i> Best window</span>
+      </div>
+    </div>
+
+    <h2 class="section-title">Heatmap · all days</h2>
+    <div class="chart-card heat-wrap">
+      <div class="heat" id="heat"></div>
+    </div>
+    <p class="status" id="status"></p>
+    <div class="err" id="error" hidden></div>
+
+    <footer>
+      Near-live Bodega-only snapshot. Times can change.
+      <div style="margin-top:0.45rem"><a href="index.html">Back to schedule</a></div>
+    </footer>
+  </div>
+
+  <script>
+    const DATA_URL = "schedule/bodega-schedule.json";
+    const DAYS = [
+      { date: "2026-07-24", label: "Friday", short: "Fri" },
+      { date: "2026-07-25", label: "Saturday", short: "Sat" },
+      { date: "2026-07-26", label: "Sunday", short: "Sun" },
+    ];
+
+    const state = { matches: [], activeDay: "2026-07-24", byDayHour: {}, hourRange: [] };
+
+    function hourOf(time) {
+      if (!time || !time.includes(":")) return null;
+      return parseInt(time.split(":")[0], 10);
+    }
+
+    function buildMatches(data) {
+      const byId = new Map();
+      for (const player of data.players || []) {
+        for (const entry of player.entries || []) {
+          for (const match of entry.matches || []) {
+            if (!match.matchId || byId.has(match.matchId)) continue;
+            byId.set(match.matchId, {
+              date: match.date,
+              time: match.time || "",
+              hour: hourOf(match.time),
+              court: match.court || "",
+              eventName: match.eventName || entry.eventName || "",
+              teamName: entry.teamName || "",
+            });
+          }
+        }
+      }
+      return [...byId.values()].filter((m) => m.date && m.hour != null);
+    }
+
+    function aggregate(matches) {
+      const byDayHour = {};
+      let minH = 24, maxH = 0;
+      for (const d of DAYS) byDayHour[d.date] = {};
+      for (const m of matches) {
+        if (!byDayHour[m.date]) byDayHour[m.date] = {};
+        byDayHour[m.date][m.hour] = (byDayHour[m.date][m.hour] || 0) + 1;
+        minH = Math.min(minH, m.hour);
+        maxH = Math.max(maxH, m.hour);
+      }
+      if (minH > maxH) { minH = 8; maxH = 20; }
+      const hours = [];
+      for (let h = minH; h <= maxH; h++) hours.push(h);
+      return { byDayHour, hours };
+    }
+
+    function windowScore(byHour, start, len = 2) {
+      let sum = 0;
+      for (let i = 0; i < len; i++) sum += byHour[start + i] || 0;
+      return sum;
+    }
+
+    function bestWindows(byDayHour) {
+      const tips = [];
+      for (const day of DAYS) {
+        const byHour = byDayHour[day.date] || {};
+        const hours = Object.keys(byHour).map(Number).sort((a, b) => a - b);
+        if (!hours.length) {
+          tips.push({ day, title: "No Bodega games scheduled yet", detail: "Check back after PicklePodium updates." });
+          continue;
+        }
+        let bestStart = hours[0], bestScore = -1;
+        const minH = Math.min(...hours);
+        const maxH = Math.max(...hours);
+        for (let h = minH; h <= maxH - 1; h++) {
+          const score = windowScore(byHour, h, 2);
+          if (score > bestScore) { bestScore = score; bestStart = h; }
+        }
+        const total = Object.values(byHour).reduce((a, b) => a + b, 0);
+        const fmt = (h) => `${String(h).padStart(2, "0")}:00`;
+        tips.push({
+          day,
+          title: `${fmt(bestStart)} – ${fmt(bestStart + 2)}`,
+          detail: `${bestScore} Bodega game${bestScore === 1 ? "" : "s"} in that stretch · ${total} total on ${day.label}`,
+          score: bestScore,
+        });
+      }
+      return tips;
+    }
+
+    function renderTips(tips) {
+      const el = document.getElementById("tips");
+      el.innerHTML = tips.map((t) => `
+        <article class="tip">
+          <div><strong>${t.day.label}</strong> best watch window</div>
+          <div class="when">${t.title}</div>
+          <div style="font-size:0.82rem;color:var(--muted);margin-top:0.25rem">${t.detail}</div>
+        </article>
+      `).join("");
+    }
+
+    function renderTabs() {
+      document.getElementById("dayTabs").innerHTML = DAYS.map((d) => {
+        const count = Object.values(state.byDayHour[d.date] || {}).reduce((a, b) => a + b, 0);
+        const active = state.activeDay === d.date ? "active" : "";
+        return `<button type="button" class="day-tab ${active}" data-date="${d.date}">${d.short}<div style="font-weight:500;opacity:.8;margin-top:0.1rem">${count} games</div></button>`;
+      }).join("");
+    }
+
+    function barClass(count, max) {
+      if (!count) return "";
+      if (max > 0 && count >= max) return "hot";
+      if (max > 1 && count >= Math.ceil(max * 0.66)) return "warm";
+      return "";
+    }
+
+    function renderBars() {
+      const byHour = state.byDayHour[state.activeDay] || {};
+      const counts = state.hourRange.map((h) => byHour[h] || 0);
+      const max = Math.max(1, ...counts);
+      const chartH = 150;
+      document.getElementById("bars").innerHTML = state.hourRange.map((h) => {
+        const c = byHour[h] || 0;
+        const height = Math.max(c ? 10 : 4, Math.round((c / max) * chartH));
+        return `<div class="bar-col">
+          <div class="bar-count">${c || ""}</div>
+          <div class="bar ${barClass(c, max)}" style="height:${height}px" title="${String(h).padStart(2,"0")}:00 — ${c} game(s)"></div>
+          <div class="bar-label">${String(h).padStart(2, "0")}</div>
+        </div>`;
+      }).join("");
+    }
+
+    function heatColor(count, max) {
+      if (!count) return "#e8e4da";
+      const t = count / max;
+      if (t >= 0.85) return "#c45c26";
+      if (t >= 0.55) return "#d4a017";
+      if (t >= 0.3) return "#387352";
+      return "#7aa08a";
+    }
+
+    function renderHeat() {
+      const max = Math.max(1, ...DAYS.flatMap((d) => Object.values(state.byDayHour[d.date] || {})));
+      const cols = state.hourRange.length;
+      const heat = document.getElementById("heat");
+      heat.style.setProperty("--cols", cols);
+      let html = `<div class="corner"></div>`;
+      for (const h of state.hourRange) {
+        html += `<div class="hlabel">${String(h).padStart(2, "0")}</div>`;
+      }
+      for (const day of DAYS) {
+        html += `<div class="vlabel">${day.short}</div>`;
+        for (const h of state.hourRange) {
+          const c = (state.byDayHour[day.date] || {})[h] || 0;
+          const bg = heatColor(c, max);
+          html += `<div class="cell ${c ? "on" : ""}" style="background:${bg}" title="${day.label} ${String(h).padStart(2,"0")}:00 — ${c}">${c || ""}</div>`;
+        }
+      }
+      heat.innerHTML = html;
+    }
+
+    function renderAll() {
+      renderTips(bestWindows(state.byDayHour));
+      renderTabs();
+      renderBars();
+      renderHeat();
+      document.getElementById("status").textContent =
+        `${state.matches.length} Bodega matches plotted · denser blocks = better time to be at the venue`;
+    }
+
+    document.getElementById("dayTabs").addEventListener("click", (e) => {
+      const btn = e.target.closest(".day-tab");
+      if (!btn) return;
+      state.activeDay = btn.dataset.date;
+      renderTabs();
+      renderBars();
+    });
+
+    async function load() {
+      const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`Could not load schedule (${res.status})`);
+      const data = await res.json();
+      state.matches = buildMatches(data);
+      const agg = aggregate(state.matches);
+      state.byDayHour = agg.byDayHour;
+      state.hourRange = agg.hours;
+      // Prefer a day that has games
+      for (const d of DAYS) {
+        if (Object.values(state.byDayHour[d.date] || {}).some((n) => n > 0)) {
+          state.activeDay = d.date;
+          break;
+        }
+      }
+      renderAll();
+    }
+
+    load().catch((err) => {
+      document.getElementById("error").hidden = false;
+      document.getElementById("error").textContent = err.message || String(err);
+    });
+
+    setInterval(() => { load().catch(() => {}); }, 3 * 60 * 1000);
+  </script>
+</body>
+</html>
