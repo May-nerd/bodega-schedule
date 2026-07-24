@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T09:42:31.322468+00:00",
+  "updatedAt": "2026-07-24T11:25:54.165965+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -36,7 +36,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 43
+              "queueAhead": 39
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -50,7 +50,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 52
+              "queueAhead": 47
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -64,7 +64,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 54
+              "queueAhead": 49
             }
           ]
         },
@@ -92,7 +92,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 8
+              "queueAhead": 4
             },
             {
               "matchId": "f9f6843f-0764-449e-9e19-593d1ed41287",
@@ -106,7 +106,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 16
+              "queueAhead": 12
             },
             {
               "matchId": "b224a196-54a4-4471-a7b5-6320fabbf22e",
@@ -120,7 +120,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 13
+              "queueAhead": 9
             }
           ]
         },
@@ -148,7 +148,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 42
+              "queueAhead": 38
             },
             {
               "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
@@ -162,7 +162,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 44
+              "queueAhead": 40
             },
             {
               "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
@@ -176,7 +176,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 39
+              "queueAhead": 35
             }
           ]
         }
@@ -210,7 +210,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 42
+              "queueAhead": 38
             },
             {
               "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
@@ -224,7 +224,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 44
+              "queueAhead": 40
             },
             {
               "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
@@ -238,7 +238,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 39
+              "queueAhead": 35
             }
           ]
         },
@@ -266,7 +266,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 26
+              "queueAhead": 21
             },
             {
               "matchId": "c1552da6-86fe-4ec7-97ec-7421475069e0",
@@ -280,7 +280,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 27
+              "queueAhead": 23
             },
             {
               "matchId": "b87efdbe-4d0d-4afd-b396-a1e9572b97ba",
@@ -294,7 +294,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 24
+              "queueAhead": 20
             }
           ]
         }
@@ -446,7 +446,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 18
+              "queueAhead": 14
             },
             {
               "matchId": "780a4a02-701e-4201-bd17-16314fb258da",
@@ -460,7 +460,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 20
+              "queueAhead": 16
             },
             {
               "matchId": "5936a8f1-45b8-4b92-995d-c891ab0e2be2",
@@ -474,7 +474,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 28
+              "queueAhead": 23
             }
           ]
         }
@@ -655,6 +655,20 @@
               "score": "11-4",
               "won": true,
               "queueAhead": null
+            },
+            {
+              "matchId": "d0ad8396-dc73-47f2-b00c-b963dc393c1d",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "18:30",
+              "court": "Court 2",
+              "opponent": "Balbastro, Ken / Quimpo, Ghayzel",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 1
             }
           ]
         }
@@ -874,7 +888,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 9
+              "queueAhead": 5
             },
             {
               "matchId": "4254dff1-b724-4c54-8980-47cd2b0c1496",
@@ -888,7 +902,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 20
+              "queueAhead": 15
             },
             {
               "matchId": "8a8c9988-47bc-4f64-b371-08bf3c3417e0",
@@ -902,7 +916,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 22
+              "queueAhead": 17
             }
           ]
         }
@@ -919,10 +933,10 @@
           "poolLabel": "Group A",
           "rank": 1,
           "poolSize": 4,
-          "played": 3,
+          "played": 4,
           "wins": 2,
-          "losses": 1,
-          "pointDiff": 13,
+          "losses": 2,
+          "pointDiff": 6,
           "matches": [
             {
               "matchId": "9cdd6efe-2199-4594-8320-0b031e083bcb",
@@ -973,12 +987,12 @@
               "stageColor": "var(--accent-teal)",
               "date": "2026-07-24",
               "time": "17:15",
-              "court": "Court 1",
+              "court": "Court 3",
               "opponent": "Rafols, Jan / Villa, Christian",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 3
+              "status": "completed",
+              "score": "4-11",
+              "won": false,
+              "queueAhead": null
             }
           ]
         }
@@ -995,10 +1009,10 @@
           "poolLabel": "Group E",
           "rank": 2,
           "poolSize": 4,
-          "played": 1,
-          "wins": 1,
-          "losses": 0,
-          "pointDiff": 6,
+          "played": 3,
+          "wins": 2,
+          "losses": 1,
+          "pointDiff": 11,
           "matches": [
             {
               "matchId": "8f4992d9-9523-4b3b-a47e-5b0f3bc47ec9",
@@ -1023,9 +1037,9 @@
               "time": "16:00",
               "court": "Court 1",
               "opponent": "Gumban, Jestoni / Jurilla, Joelly",
-              "status": "live",
-              "score": "0–0",
-              "won": null,
+              "status": "completed",
+              "score": "0-11",
+              "won": true,
               "queueAhead": null
             },
             {
@@ -1035,12 +1049,12 @@
               "stageColor": "var(--accent-teal)",
               "date": "2026-07-24",
               "time": "16:45",
-              "court": "Court 1",
+              "court": "Court 2",
               "opponent": "Meñez, Cherry / Yu, Alvin",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 1
+              "status": "completed",
+              "score": "5-11",
+              "won": false,
+              "queueAhead": null
             }
           ]
         },
@@ -1068,7 +1082,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 18
+              "queueAhead": 14
             },
             {
               "matchId": "780a4a02-701e-4201-bd17-16314fb258da",
@@ -1082,7 +1096,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 20
+              "queueAhead": 16
             },
             {
               "matchId": "5936a8f1-45b8-4b92-995d-c891ab0e2be2",
@@ -1096,7 +1110,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 28
+              "queueAhead": 23
             }
           ]
         }
@@ -1113,10 +1127,10 @@
           "poolLabel": "Group A",
           "rank": 1,
           "poolSize": 4,
-          "played": 3,
+          "played": 4,
           "wins": 2,
-          "losses": 1,
-          "pointDiff": 13,
+          "losses": 2,
+          "pointDiff": 6,
           "matches": [
             {
               "matchId": "9cdd6efe-2199-4594-8320-0b031e083bcb",
@@ -1167,12 +1181,12 @@
               "stageColor": "var(--accent-teal)",
               "date": "2026-07-24",
               "time": "17:15",
-              "court": "Court 1",
+              "court": "Court 3",
               "opponent": "Rafols, Jan / Villa, Christian",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 3
+              "status": "completed",
+              "score": "4-11",
+              "won": false,
+              "queueAhead": null
             }
           ]
         }
@@ -1206,7 +1220,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 43
+              "queueAhead": 39
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -1220,7 +1234,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 52
+              "queueAhead": 47
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -1234,7 +1248,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 54
+              "queueAhead": 49
             }
           ]
         },
@@ -1262,7 +1276,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 8
+              "queueAhead": 4
             },
             {
               "matchId": "f9f6843f-0764-449e-9e19-593d1ed41287",
@@ -1276,7 +1290,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 16
+              "queueAhead": 12
             },
             {
               "matchId": "b224a196-54a4-4471-a7b5-6320fabbf22e",
@@ -1290,7 +1304,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 13
+              "queueAhead": 9
             }
           ]
         }
@@ -1380,7 +1394,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 39
+              "queueAhead": 34
             },
             {
               "matchId": "ed10a413-9792-4837-8b16-9c7988b95674",
@@ -1394,7 +1408,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 43
+              "queueAhead": 39
             }
           ]
         },
@@ -1422,7 +1436,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 26
+              "queueAhead": 21
             },
             {
               "matchId": "c1552da6-86fe-4ec7-97ec-7421475069e0",
@@ -1436,7 +1450,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 27
+              "queueAhead": 23
             },
             {
               "matchId": "b87efdbe-4d0d-4afd-b396-a1e9572b97ba",
@@ -1450,7 +1464,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 24
+              "queueAhead": 20
             }
           ]
         }
@@ -1583,12 +1597,12 @@
           "teamName": "Aranas, Kyle / Fuentes, Gracia Gay",
           "partner": "Aranas, Kyle",
           "poolLabel": "Group F",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
-          "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "rank": 2,
+          "poolSize": 4,
+          "played": 3,
+          "wins": 2,
+          "losses": 1,
+          "pointDiff": 18,
           "matches": [
             {
               "matchId": "e74ebdc1-6c52-4e63-8c5d-951410c39362",
@@ -1597,12 +1611,12 @@
               "stageColor": "var(--accent-teal)",
               "date": "2026-07-24",
               "time": "16:00",
-              "court": "Court 3",
+              "court": "Court 1",
               "opponent": "Garcia, Aira / Panuntan, Lyndon",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "1-11",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "3a234242-de26-48df-abea-1c09ddbe141f",
@@ -1613,9 +1627,9 @@
               "time": "16:30",
               "court": "Court 2",
               "opponent": "Rovero, Dot / Mendoza, Deann Angelo",
-              "status": "live",
-              "score": "0–0",
-              "won": null,
+              "status": "completed",
+              "score": "11-10",
+              "won": false,
               "queueAhead": null
             },
             {
@@ -1625,12 +1639,26 @@
               "stageColor": "var(--accent-teal)",
               "date": "2026-07-24",
               "time": "17:00",
-              "court": "Court 3",
+              "court": "Court 1",
               "opponent": "Martin, Tricel / Mayor, Opet",
+              "status": "completed",
+              "score": "11-2",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "5dff430b-5001-460c-bb03-9e93bf6845ad",
+              "eventName": "Beginner Mixed Doubles (24 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-24",
+              "time": "18:45",
+              "court": "Court 1",
+              "opponent": "Tolentino, Niño / Reyes, Jenny Ann",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 3
+              "queueAhead": 5
             }
           ]
         },
@@ -1695,12 +1723,12 @@
               "stageColor": "var(--accent-teal)",
               "date": "2026-07-24",
               "time": "17:45",
-              "court": "Court 2",
+              "court": "Court 3",
               "opponent": "Biray, Lady Yzabelle / Balingasa, Allana Gabrielle",
-              "status": "pending",
+              "status": "scheduled",
               "score": null,
               "won": null,
-              "queueAhead": 4
+              "queueAhead": 0
             }
           ]
         },
@@ -1728,7 +1756,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 45
+              "queueAhead": 40
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -1742,7 +1770,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 40
+              "queueAhead": 36
             },
             {
               "matchId": "79f0372b-35d3-471c-baa8-1032729c9ae6",
@@ -1756,7 +1784,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 42
+              "queueAhead": 38
             }
           ]
         }
@@ -1790,7 +1818,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 56
+              "queueAhead": 51
             },
             {
               "matchId": "eeb89dbb-d9f0-495e-875a-d4b65ec54e4e",
@@ -1804,7 +1832,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 51
+              "queueAhead": 47
             },
             {
               "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
@@ -1818,7 +1846,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 53
+              "queueAhead": 49
             }
           ]
         },
@@ -1846,7 +1874,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 20
+              "queueAhead": 16
             },
             {
               "matchId": "8f0bdcdb-2667-4c7b-a281-39dd3c67d4b0",
@@ -1860,7 +1888,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 22
+              "queueAhead": 18
             },
             {
               "matchId": "ea8b2dd1-7953-4973-bac8-f92ec61e1d75",
@@ -1874,7 +1902,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 25
+              "queueAhead": 20
             }
           ]
         },
@@ -1902,7 +1930,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 38
+              "queueAhead": 34
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -1916,7 +1944,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 40
+              "queueAhead": 36
             },
             {
               "matchId": "4ad0e919-d11b-4e7c-87f4-b81f1b688051",
@@ -1930,7 +1958,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 49
+              "queueAhead": 45
             }
           ]
         }
