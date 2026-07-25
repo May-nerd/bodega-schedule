@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T15:37:35.936663+00:00",
+  "updatedAt": "2026-07-25T16:33:31.264871+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -65,6 +65,20 @@
               "score": "8-11",
               "won": true,
               "queueAhead": null
+            },
+            {
+              "matchId": "06b1dc05-26ba-427e-9911-83d3fd4f461e",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "21:30",
+              "court": "Court 2",
+              "opponent": "Licera, Gerald / Talento, Erwin",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 2
             }
           ]
         },
@@ -173,10 +187,10 @@
           "poolLabel": "Group B",
           "rank": 1,
           "poolSize": 4,
-          "played": 3,
-          "wins": 3,
-          "losses": 0,
-          "pointDiff": 16,
+          "played": 5,
+          "wins": 4,
+          "losses": 1,
+          "pointDiff": 13,
           "matches": [
             {
               "matchId": "704f418c-676e-4bf7-b8bf-eb282342f4d9",
@@ -229,10 +243,38 @@
               "time": "20:45",
               "court": "Court 2",
               "opponent": "Forro, Edalrehce / Rafols, Jan",
+              "status": "completed",
+              "score": "11-5",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "06a8b249-4d4c-4266-b15d-0a697e9c77ce",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "SF",
+              "stageColor": "var(--accent-violet)",
+              "date": "2026-07-25",
+              "time": "21:15",
+              "court": "Court 1",
+              "opponent": "Isberto, Gianina / Prado, Gibrian",
+              "status": "completed",
+              "score": "6-15",
+              "won": false,
+              "queueAhead": null
+            },
+            {
+              "matchId": "b88f0867-f1e8-4c16-88a9-d41a98952872",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Bronze",
+              "stageColor": "var(--accent-clay)",
+              "date": "2026-07-25",
+              "time": "21:45",
+              "court": "Court 3",
+              "opponent": "TBD",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 2
+              "queueAhead": 3
             }
           ]
         }
@@ -249,10 +291,10 @@
           "poolLabel": "Group B",
           "rank": 1,
           "poolSize": 4,
-          "played": 3,
-          "wins": 3,
-          "losses": 0,
-          "pointDiff": 16,
+          "played": 5,
+          "wins": 4,
+          "losses": 1,
+          "pointDiff": 13,
           "matches": [
             {
               "matchId": "704f418c-676e-4bf7-b8bf-eb282342f4d9",
@@ -305,10 +347,38 @@
               "time": "20:45",
               "court": "Court 2",
               "opponent": "Forro, Edalrehce / Rafols, Jan",
+              "status": "completed",
+              "score": "11-5",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "06a8b249-4d4c-4266-b15d-0a697e9c77ce",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "SF",
+              "stageColor": "var(--accent-violet)",
+              "date": "2026-07-25",
+              "time": "21:15",
+              "court": "Court 1",
+              "opponent": "Isberto, Gianina / Prado, Gibrian",
+              "status": "completed",
+              "score": "6-15",
+              "won": false,
+              "queueAhead": null
+            },
+            {
+              "matchId": "b88f0867-f1e8-4c16-88a9-d41a98952872",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "Bronze",
+              "stageColor": "var(--accent-clay)",
+              "date": "2026-07-25",
+              "time": "21:45",
+              "court": "Court 3",
+              "opponent": "TBD",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 2
+              "queueAhead": 3
             }
           ]
         },
@@ -1389,6 +1459,20 @@
               "score": "8-11",
               "won": true,
               "queueAhead": null
+            },
+            {
+              "matchId": "06b1dc05-26ba-427e-9911-83d3fd4f461e",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "21:30",
+              "court": "Court 2",
+              "opponent": "Licera, Gerald / Talento, Erwin",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 2
             }
           ]
         },
@@ -2039,10 +2123,10 @@
           "poolLabel": "Group B",
           "rank": 2,
           "poolSize": 4,
-          "played": 1,
-          "wins": 1,
-          "losses": 0,
-          "pointDiff": 7,
+          "played": 3,
+          "wins": 2,
+          "losses": 1,
+          "pointDiff": 10,
           "matches": [
             {
               "matchId": "b390d300-d101-4d25-918e-5002b834a50c",
@@ -2067,10 +2151,10 @@
               "time": "19:45",
               "court": "Court 2",
               "opponent": "Licera, Gerald / Talento, Erwin",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "3-11",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
@@ -2081,10 +2165,24 @@
               "time": "20:15",
               "court": "Court 2",
               "opponent": "Lee, John Carlo / Saad, Abraham",
+              "status": "completed",
+              "score": "0-11",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "3eff868b-6838-4222-9798-b7c2e47c77c2",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "21:45",
+              "court": "Court 2",
+              "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 1
+              "queueAhead": 3
             }
           ]
         },
