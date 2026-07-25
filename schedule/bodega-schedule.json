@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T04:15:35.312189+00:00",
+  "updatedAt": "2026-07-25T06:36:32.202531+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -36,7 +36,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 21
+              "queueAhead": 15
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -50,7 +50,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 26
+              "queueAhead": 19
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -64,7 +64,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 28
+              "queueAhead": 21
             }
           ]
         },
@@ -75,10 +75,10 @@
           "poolLabel": "Group C",
           "rank": 1,
           "poolSize": 4,
-          "played": 3,
-          "wins": 3,
+          "played": 4,
+          "wins": 4,
           "losses": 0,
-          "pointDiff": 24,
+          "pointDiff": 31,
           "matches": [
             {
               "matchId": "c5c541ea-54d5-4599-bcd2-7f3628365b4f",
@@ -121,6 +121,34 @@
               "score": "1-11",
               "won": true,
               "queueAhead": null
+            },
+            {
+              "matchId": "faefe135-38af-423e-bca6-0d301d0338d3",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "13:30",
+              "court": "Court 2",
+              "opponent": "Manikan, Brahms Marlowe / Aguila, Lochinvar",
+              "status": "completed",
+              "score": "11-4",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "cb2c41cf-7eff-4f95-80a2-831c34ef428f",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "SF",
+              "stageColor": "var(--accent-violet)",
+              "date": "2026-07-25",
+              "time": "14:00",
+              "court": "Court 3",
+              "opponent": "Melgar, Jerome / Montenegro, Rak",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 2
             }
           ]
         },
@@ -148,7 +176,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 16
+              "queueAhead": 8
             },
             {
               "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
@@ -162,7 +190,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 18
+              "queueAhead": 10
             },
             {
               "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
@@ -176,7 +204,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 17
+              "queueAhead": 11
             }
           ]
         }
@@ -210,7 +238,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 16
+              "queueAhead": 8
             },
             {
               "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
@@ -224,7 +252,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 18
+              "queueAhead": 10
             },
             {
               "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
@@ -238,7 +266,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 17
+              "queueAhead": 11
             }
           ]
         },
@@ -247,12 +275,12 @@
           "teamName": "Canete, Patricia Marie / Delos Santos, Allyssah Marie",
           "partner": "Delos Santos, Allyssah Marie",
           "poolLabel": "Group B",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
+          "rank": 4,
+          "poolSize": 4,
+          "played": 3,
           "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "losses": 3,
+          "pointDiff": -15,
           "matches": [
             {
               "matchId": "f8d464fa-2138-466f-84e8-631d6e77d91d",
@@ -263,10 +291,10 @@
               "time": "11:15",
               "court": "Court 3",
               "opponent": "Ricamonte, Stephanie Erica Louise / Tabañar, Bianca Ysobel",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "7-11",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "c1552da6-86fe-4ec7-97ec-7421475069e0",
@@ -277,10 +305,10 @@
               "time": "11:45",
               "court": "Court 1",
               "opponent": "Forro, Edalrehce / Gimay, Janella Anne Mary",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 1
+              "status": "completed",
+              "score": "11-6",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "b87efdbe-4d0d-4afd-b396-a1e9572b97ba",
@@ -291,10 +319,10 @@
               "time": "12:15",
               "court": "Court 2",
               "opponent": "Hertas, Jamie Marie / Suoberon, Mary Kirby Shane",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 2
+              "status": "completed",
+              "score": "11-5",
+              "won": false,
+              "queueAhead": null
             }
           ]
         }
@@ -427,12 +455,12 @@
           "teamName": "Baltazar, Irish Gail / Vargas, Mary Celeste",
           "partner": "Baltazar, Irish Gail",
           "poolLabel": "Group A",
-          "rank": 3,
+          "rank": 2,
           "poolSize": 4,
-          "played": 2,
-          "wins": 1,
+          "played": 3,
+          "wins": 2,
           "losses": 1,
-          "pointDiff": -4,
+          "pointDiff": -2,
           "matches": [
             {
               "matchId": "91a65880-9e18-4474-9a4c-418d1adebc69",
@@ -471,10 +499,24 @@
               "time": "11:45",
               "court": "Court 3",
               "opponent": "Moises, Eleonor / Sevillano, Eunice",
+              "status": "completed",
+              "score": "9-11",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "2aae2fe6-202b-4b70-b8b4-55de37fd2616",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "13:45",
+              "court": "Court 3",
+              "opponent": "Magro, Keisha / Salibio, Shezell",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 2
+              "queueAhead": 1
             }
           ]
         }
@@ -917,6 +959,20 @@
               "score": "11-2",
               "won": true,
               "queueAhead": null
+            },
+            {
+              "matchId": "4727de4e-8b8a-488b-8fb5-f8687e4672a6",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "13:30",
+              "court": "Court 3",
+              "opponent": "Tabanar, Sergei Benjamin / Ochono, Jolo",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 0
             }
           ]
         }
@@ -1063,12 +1119,12 @@
           "teamName": "Baltazar, Irish Gail / Vargas, Mary Celeste",
           "partner": "Vargas, Mary Celeste",
           "poolLabel": "Group A",
-          "rank": 3,
+          "rank": 2,
           "poolSize": 4,
-          "played": 2,
-          "wins": 1,
+          "played": 3,
+          "wins": 2,
           "losses": 1,
-          "pointDiff": -4,
+          "pointDiff": -2,
           "matches": [
             {
               "matchId": "91a65880-9e18-4474-9a4c-418d1adebc69",
@@ -1107,10 +1163,24 @@
               "time": "11:45",
               "court": "Court 3",
               "opponent": "Moises, Eleonor / Sevillano, Eunice",
+              "status": "completed",
+              "score": "9-11",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "2aae2fe6-202b-4b70-b8b4-55de37fd2616",
+              "eventName": "Novice Women's Doubles (16 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "13:45",
+              "court": "Court 3",
+              "opponent": "Magro, Keisha / Salibio, Shezell",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 2
+              "queueAhead": 1
             }
           ]
         }
@@ -1220,7 +1290,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 21
+              "queueAhead": 15
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -1234,7 +1304,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 26
+              "queueAhead": 19
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -1248,7 +1318,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 28
+              "queueAhead": 21
             }
           ]
         },
@@ -1259,10 +1329,10 @@
           "poolLabel": "Group C",
           "rank": 1,
           "poolSize": 4,
-          "played": 3,
-          "wins": 3,
+          "played": 4,
+          "wins": 4,
           "losses": 0,
-          "pointDiff": 24,
+          "pointDiff": 31,
           "matches": [
             {
               "matchId": "c5c541ea-54d5-4599-bcd2-7f3628365b4f",
@@ -1305,6 +1375,34 @@
               "score": "1-11",
               "won": true,
               "queueAhead": null
+            },
+            {
+              "matchId": "faefe135-38af-423e-bca6-0d301d0338d3",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "13:30",
+              "court": "Court 2",
+              "opponent": "Manikan, Brahms Marlowe / Aguila, Lochinvar",
+              "status": "completed",
+              "score": "11-4",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "cb2c41cf-7eff-4f95-80a2-831c34ef428f",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "SF",
+              "stageColor": "var(--accent-violet)",
+              "date": "2026-07-25",
+              "time": "14:00",
+              "court": "Court 3",
+              "opponent": "Melgar, Jerome / Montenegro, Rak",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 2
             }
           ]
         }
@@ -1394,7 +1492,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 13
+              "queueAhead": 6
             },
             {
               "matchId": "ed10a413-9792-4837-8b16-9c7988b95674",
@@ -1408,7 +1506,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 17
+              "queueAhead": 9
             }
           ]
         },
@@ -1417,12 +1515,12 @@
           "teamName": "Canete, Patricia Marie / Delos Santos, Allyssah Marie",
           "partner": "Canete, Patricia Marie",
           "poolLabel": "Group B",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
+          "rank": 4,
+          "poolSize": 4,
+          "played": 3,
           "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "losses": 3,
+          "pointDiff": -15,
           "matches": [
             {
               "matchId": "f8d464fa-2138-466f-84e8-631d6e77d91d",
@@ -1433,10 +1531,10 @@
               "time": "11:15",
               "court": "Court 3",
               "opponent": "Ricamonte, Stephanie Erica Louise / Tabañar, Bianca Ysobel",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "7-11",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "c1552da6-86fe-4ec7-97ec-7421475069e0",
@@ -1447,10 +1545,10 @@
               "time": "11:45",
               "court": "Court 1",
               "opponent": "Forro, Edalrehce / Gimay, Janella Anne Mary",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 1
+              "status": "completed",
+              "score": "11-6",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "b87efdbe-4d0d-4afd-b396-a1e9572b97ba",
@@ -1461,10 +1559,10 @@
               "time": "12:15",
               "court": "Court 2",
               "opponent": "Hertas, Jamie Marie / Suoberon, Mary Kirby Shane",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 2
+              "status": "completed",
+              "score": "11-5",
+              "won": false,
+              "queueAhead": null
             }
           ]
         }
@@ -1812,7 +1910,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 19
+              "queueAhead": 12
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -1826,7 +1924,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 18
+              "queueAhead": 12
             },
             {
               "matchId": "79f0372b-35d3-471c-baa8-1032729c9ae6",
@@ -1840,7 +1938,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 20
+              "queueAhead": 14
             }
           ]
         }
@@ -1874,7 +1972,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 30
+              "queueAhead": 23
             },
             {
               "matchId": "eeb89dbb-d9f0-495e-875a-d4b65ec54e4e",
@@ -1888,7 +1986,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 29
+              "queueAhead": 23
             },
             {
               "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
@@ -1902,7 +2000,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 31
+              "queueAhead": 25
             }
           ]
         },
@@ -1986,7 +2084,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 16
+              "queueAhead": 10
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -2000,7 +2098,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 18
+              "queueAhead": 12
             },
             {
               "matchId": "4ad0e919-d11b-4e7c-87f4-b81f1b688051",
@@ -2014,7 +2112,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 23
+              "queueAhead": 15
             }
           ]
         }
