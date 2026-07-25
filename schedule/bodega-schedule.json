@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T16:33:31.264871+00:00",
+  "updatedAt": "2026-07-25T17:41:08.431279+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -187,10 +187,10 @@
           "poolLabel": "Group B",
           "rank": 1,
           "poolSize": 4,
-          "played": 5,
-          "wins": 4,
+          "played": 6,
+          "wins": 5,
           "losses": 1,
-          "pointDiff": 13,
+          "pointDiff": 16,
           "matches": [
             {
               "matchId": "704f418c-676e-4bf7-b8bf-eb282342f4d9",
@@ -270,11 +270,11 @@
               "date": "2026-07-25",
               "time": "21:45",
               "court": "Court 3",
-              "opponent": "TBD",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 3
+              "opponent": "Saad, Abraham / Te, Christie Marie",
+              "status": "completed",
+              "score": "12-15",
+              "won": true,
+              "queueAhead": null
             }
           ]
         }
@@ -291,10 +291,10 @@
           "poolLabel": "Group B",
           "rank": 1,
           "poolSize": 4,
-          "played": 5,
-          "wins": 4,
+          "played": 6,
+          "wins": 5,
           "losses": 1,
-          "pointDiff": 13,
+          "pointDiff": 16,
           "matches": [
             {
               "matchId": "704f418c-676e-4bf7-b8bf-eb282342f4d9",
@@ -374,11 +374,11 @@
               "date": "2026-07-25",
               "time": "21:45",
               "court": "Court 3",
-              "opponent": "TBD",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 3
+              "opponent": "Saad, Abraham / Te, Christie Marie",
+              "status": "completed",
+              "score": "12-15",
+              "won": true,
+              "queueAhead": null
             }
           ]
         },
