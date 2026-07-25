@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T12:45:07.953654+00:00",
+  "updatedAt": "2026-07-25T14:20:27.553828+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -17,12 +17,12 @@
           "teamName": "Acsay, Leo Vincent / Nalangan, Clyde",
           "partner": "Acsay, Leo Vincent",
           "poolLabel": "Group C",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
-          "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "rank": 2,
+          "poolSize": 4,
+          "played": 2,
+          "wins": 1,
+          "losses": 1,
+          "pointDiff": -6,
           "matches": [
             {
               "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
@@ -36,7 +36,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 1
+              "queueAhead": 0
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -47,10 +47,10 @@
               "time": "18:15",
               "court": "Court 3",
               "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 2
+              "status": "completed",
+              "score": "11-2",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -61,10 +61,10 @@
               "time": "18:45",
               "court": "Court 3",
               "opponent": "Mabasa, Nathan / Manikan, Brahms Marlowe",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 4
+              "status": "completed",
+              "score": "8-11",
+              "won": true,
+              "queueAhead": null
             }
           ]
         },
@@ -232,7 +232,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 11
+              "queueAhead": 6
             }
           ]
         }
@@ -308,7 +308,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 11
+              "queueAhead": 6
             }
           ]
         },
@@ -1341,12 +1341,12 @@
           "teamName": "Acsay, Leo Vincent / Nalangan, Clyde",
           "partner": "Nalangan, Clyde",
           "poolLabel": "Group C",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
-          "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "rank": 2,
+          "poolSize": 4,
+          "played": 2,
+          "wins": 1,
+          "losses": 1,
+          "pointDiff": -6,
           "matches": [
             {
               "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
@@ -1360,7 +1360,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 1
+              "queueAhead": 0
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -1371,10 +1371,10 @@
               "time": "18:15",
               "court": "Court 3",
               "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 2
+              "status": "completed",
+              "score": "11-2",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -1385,10 +1385,10 @@
               "time": "18:45",
               "court": "Court 3",
               "opponent": "Mabasa, Nathan / Manikan, Brahms Marlowe",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 4
+              "status": "completed",
+              "score": "8-11",
+              "won": true,
+              "queueAhead": null
             }
           ]
         },
@@ -2056,7 +2056,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 6
+              "queueAhead": 2
             },
             {
               "matchId": "eeb89dbb-d9f0-495e-875a-d4b65ec54e4e",
@@ -2070,7 +2070,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 7
+              "queueAhead": 3
             },
             {
               "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
@@ -2084,7 +2084,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 9
+              "queueAhead": 5
             }
           ]
         },
