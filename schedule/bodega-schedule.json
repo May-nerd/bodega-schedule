@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T00:59:18.920083+00:00",
+  "updatedAt": "2026-07-25T04:15:35.312189+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -36,7 +36,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 33
+              "queueAhead": 21
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -50,7 +50,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 36
+              "queueAhead": 26
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -64,7 +64,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 38
+              "queueAhead": 28
             }
           ]
         },
@@ -73,12 +73,12 @@
           "teamName": "Acsay, Leo Vincent / Nalangan, Clyde",
           "partner": "Acsay, Leo Vincent",
           "poolLabel": "Group C",
-          "rank": 2,
+          "rank": 1,
           "poolSize": 4,
-          "played": 1,
-          "wins": 1,
+          "played": 3,
+          "wins": 3,
           "losses": 0,
-          "pointDiff": 9,
+          "pointDiff": 24,
           "matches": [
             {
               "matchId": "c5c541ea-54d5-4599-bcd2-7f3628365b4f",
@@ -103,10 +103,10 @@
               "time": "09:00",
               "court": "Court 1",
               "opponent": "Carmelo, Paul / Tupas, Neco",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 1
+              "status": "completed",
+              "score": "11-6",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "b224a196-54a4-4471-a7b5-6320fabbf22e",
@@ -117,10 +117,10 @@
               "time": "09:30",
               "court": "Court 2",
               "opponent": "Capispisan, Dominguito / Gonzaga, Angelo Galileo",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 3
+              "status": "completed",
+              "score": "1-11",
+              "won": true,
+              "queueAhead": null
             }
           ]
         },
@@ -148,7 +148,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 27
+              "queueAhead": 16
             },
             {
               "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
@@ -162,7 +162,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 29
+              "queueAhead": 18
             },
             {
               "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
@@ -176,7 +176,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 29
+              "queueAhead": 17
             }
           ]
         }
@@ -210,7 +210,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 27
+              "queueAhead": 16
             },
             {
               "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
@@ -224,7 +224,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 29
+              "queueAhead": 18
             },
             {
               "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
@@ -238,7 +238,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 29
+              "queueAhead": 17
             }
           ]
         },
@@ -266,7 +266,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 10
+              "queueAhead": 0
             },
             {
               "matchId": "c1552da6-86fe-4ec7-97ec-7421475069e0",
@@ -280,7 +280,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 12
+              "queueAhead": 1
             },
             {
               "matchId": "b87efdbe-4d0d-4afd-b396-a1e9572b97ba",
@@ -294,7 +294,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 14
+              "queueAhead": 2
             }
           ]
         }
@@ -427,12 +427,12 @@
           "teamName": "Baltazar, Irish Gail / Vargas, Mary Celeste",
           "partner": "Baltazar, Irish Gail",
           "poolLabel": "Group A",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
-          "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "rank": 3,
+          "poolSize": 4,
+          "played": 2,
+          "wins": 1,
+          "losses": 1,
+          "pointDiff": -4,
           "matches": [
             {
               "matchId": "91a65880-9e18-4474-9a4c-418d1adebc69",
@@ -443,10 +443,10 @@
               "time": "10:45",
               "court": "Court 2",
               "opponent": "Alomajan, Lorilee / Santos, Martha Elizabeth",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 8
+              "status": "completed",
+              "score": "11-9",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "780a4a02-701e-4201-bd17-16314fb258da",
@@ -457,10 +457,10 @@
               "time": "11:15",
               "court": "Court 2",
               "opponent": "Alba, April Lyn / Vicente, Jonabeth",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 10
+              "status": "completed",
+              "score": "11-5",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "5936a8f1-45b8-4b92-995d-c891ab0e2be2",
@@ -474,7 +474,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 12
+              "queueAhead": 2
             }
           ]
         }
@@ -871,10 +871,10 @@
           "poolLabel": "Group D",
           "rank": 1,
           "poolSize": 4,
-          "played": 1,
-          "wins": 1,
+          "played": 3,
+          "wins": 3,
           "losses": 0,
-          "pointDiff": 11,
+          "pointDiff": 25,
           "matches": [
             {
               "matchId": "c6c6e0e9-6791-4c27-9c4a-d363a55280fc",
@@ -899,10 +899,10 @@
               "time": "09:45",
               "court": "Court 3",
               "opponent": "Gallo, Sean Raphael / Chung, Whiram",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 4
+              "status": "completed",
+              "score": "11-6",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "8a8c9988-47bc-4f64-b371-08bf3c3417e0",
@@ -913,10 +913,10 @@
               "time": "10:15",
               "court": "Court 3",
               "opponent": "David, Albert Roy / Castor, Christian",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 6
+              "status": "completed",
+              "score": "11-2",
+              "won": true,
+              "queueAhead": null
             }
           ]
         }
@@ -1063,12 +1063,12 @@
           "teamName": "Baltazar, Irish Gail / Vargas, Mary Celeste",
           "partner": "Vargas, Mary Celeste",
           "poolLabel": "Group A",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
-          "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "rank": 3,
+          "poolSize": 4,
+          "played": 2,
+          "wins": 1,
+          "losses": 1,
+          "pointDiff": -4,
           "matches": [
             {
               "matchId": "91a65880-9e18-4474-9a4c-418d1adebc69",
@@ -1079,10 +1079,10 @@
               "time": "10:45",
               "court": "Court 2",
               "opponent": "Alomajan, Lorilee / Santos, Martha Elizabeth",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 8
+              "status": "completed",
+              "score": "11-9",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "780a4a02-701e-4201-bd17-16314fb258da",
@@ -1093,10 +1093,10 @@
               "time": "11:15",
               "court": "Court 2",
               "opponent": "Alba, April Lyn / Vicente, Jonabeth",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 10
+              "status": "completed",
+              "score": "11-5",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "5936a8f1-45b8-4b92-995d-c891ab0e2be2",
@@ -1110,7 +1110,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 12
+              "queueAhead": 2
             }
           ]
         }
@@ -1220,7 +1220,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 33
+              "queueAhead": 21
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -1234,7 +1234,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 36
+              "queueAhead": 26
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -1248,7 +1248,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 38
+              "queueAhead": 28
             }
           ]
         },
@@ -1257,12 +1257,12 @@
           "teamName": "Acsay, Leo Vincent / Nalangan, Clyde",
           "partner": "Nalangan, Clyde",
           "poolLabel": "Group C",
-          "rank": 2,
+          "rank": 1,
           "poolSize": 4,
-          "played": 1,
-          "wins": 1,
+          "played": 3,
+          "wins": 3,
           "losses": 0,
-          "pointDiff": 9,
+          "pointDiff": 24,
           "matches": [
             {
               "matchId": "c5c541ea-54d5-4599-bcd2-7f3628365b4f",
@@ -1287,10 +1287,10 @@
               "time": "09:00",
               "court": "Court 1",
               "opponent": "Carmelo, Paul / Tupas, Neco",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 1
+              "status": "completed",
+              "score": "11-6",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "b224a196-54a4-4471-a7b5-6320fabbf22e",
@@ -1301,10 +1301,10 @@
               "time": "09:30",
               "court": "Court 2",
               "opponent": "Capispisan, Dominguito / Gonzaga, Angelo Galileo",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 3
+              "status": "completed",
+              "score": "1-11",
+              "won": true,
+              "queueAhead": null
             }
           ]
         }
@@ -1394,7 +1394,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 23
+              "queueAhead": 13
             },
             {
               "matchId": "ed10a413-9792-4837-8b16-9c7988b95674",
@@ -1408,7 +1408,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 28
+              "queueAhead": 17
             }
           ]
         },
@@ -1436,7 +1436,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 10
+              "queueAhead": 0
             },
             {
               "matchId": "c1552da6-86fe-4ec7-97ec-7421475069e0",
@@ -1450,7 +1450,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 12
+              "queueAhead": 1
             },
             {
               "matchId": "b87efdbe-4d0d-4afd-b396-a1e9572b97ba",
@@ -1464,7 +1464,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 14
+              "queueAhead": 2
             }
           ]
         }
@@ -1812,7 +1812,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 29
+              "queueAhead": 19
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -1826,7 +1826,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 30
+              "queueAhead": 18
             },
             {
               "matchId": "79f0372b-35d3-471c-baa8-1032729c9ae6",
@@ -1840,7 +1840,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 32
+              "queueAhead": 20
             }
           ]
         }
@@ -1874,7 +1874,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 40
+              "queueAhead": 30
             },
             {
               "matchId": "eeb89dbb-d9f0-495e-875a-d4b65ec54e4e",
@@ -1888,7 +1888,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 41
+              "queueAhead": 29
             },
             {
               "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
@@ -1902,7 +1902,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 43
+              "queueAhead": 31
             }
           ]
         },
@@ -1911,12 +1911,12 @@
           "teamName": "Reyes, Zabdiel / Velasco, Gabrielle",
           "partner": "Velasco, Gabrielle",
           "poolLabel": "Group F",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
-          "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "rank": 2,
+          "poolSize": 4,
+          "played": 3,
+          "wins": 2,
+          "losses": 1,
+          "pointDiff": 9,
           "matches": [
             {
               "matchId": "383101e2-bc18-4e4d-bfbe-adc6dbd47b15",
@@ -1927,10 +1927,10 @@
               "time": "10:00",
               "court": "Court 1",
               "opponent": "Ablan, Shaun / Mayor, Jac",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 5
+              "status": "completed",
+              "score": "5-11",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "8f0bdcdb-2667-4c7b-a281-39dd3c67d4b0",
@@ -1941,10 +1941,10 @@
               "time": "10:30",
               "court": "Court 1",
               "opponent": "Quimpo, Jonathan / Tolentino, Niño",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 7
+              "status": "completed",
+              "score": "11-6",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "ea8b2dd1-7953-4973-bac8-f92ec61e1d75",
@@ -1955,10 +1955,10 @@
               "time": "11:00",
               "court": "Court 3",
               "opponent": "Manikan, Brahms Marlowe / Aguila, Lochinvar",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 9
+              "status": "completed",
+              "score": "11-9",
+              "won": false,
+              "queueAhead": null
             }
           ]
         },
@@ -1986,7 +1986,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 28
+              "queueAhead": 16
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -2000,7 +2000,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 30
+              "queueAhead": 18
             },
             {
               "matchId": "4ad0e919-d11b-4e7c-87f4-b81f1b688051",
@@ -2014,7 +2014,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 34
+              "queueAhead": 23
             }
           ]
         }
