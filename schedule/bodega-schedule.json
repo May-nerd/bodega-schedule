@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T14:20:27.553828+00:00",
+  "updatedAt": "2026-07-25T15:37:35.936663+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -19,10 +19,10 @@
           "poolLabel": "Group C",
           "rank": 2,
           "poolSize": 4,
-          "played": 2,
-          "wins": 1,
+          "played": 3,
+          "wins": 2,
           "losses": 1,
-          "pointDiff": -6,
+          "pointDiff": -3,
           "matches": [
             {
               "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
@@ -33,10 +33,10 @@
               "time": "17:45",
               "court": "Court 2",
               "opponent": "Bilibli, Raymund / Sajonia, Kalvin",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "11-8",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -232,7 +232,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 6
+              "queueAhead": 2
             }
           ]
         }
@@ -308,7 +308,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 6
+              "queueAhead": 2
             }
           ]
         },
@@ -1343,10 +1343,10 @@
           "poolLabel": "Group C",
           "rank": 2,
           "poolSize": 4,
-          "played": 2,
-          "wins": 1,
+          "played": 3,
+          "wins": 2,
           "losses": 1,
-          "pointDiff": -6,
+          "pointDiff": -3,
           "matches": [
             {
               "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
@@ -1357,10 +1357,10 @@
               "time": "17:45",
               "court": "Court 2",
               "opponent": "Bilibli, Raymund / Sajonia, Kalvin",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "11-8",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -2037,12 +2037,12 @@
           "teamName": "Reyes, Zabdiel / Velasco, Gabrielle",
           "partner": "Velasco, Gabrielle",
           "poolLabel": "Group B",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
-          "wins": 0,
+          "rank": 2,
+          "poolSize": 4,
+          "played": 1,
+          "wins": 1,
           "losses": 0,
-          "pointDiff": 0,
+          "pointDiff": 7,
           "matches": [
             {
               "matchId": "b390d300-d101-4d25-918e-5002b834a50c",
@@ -2053,10 +2053,10 @@
               "time": "19:15",
               "court": "Court 3",
               "opponent": "Panado, Jardine / Auto, Tata",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 2
+              "status": "completed",
+              "score": "4-11",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "eeb89dbb-d9f0-495e-875a-d4b65ec54e4e",
@@ -2070,7 +2070,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 3
+              "queueAhead": 0
             },
             {
               "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
@@ -2084,7 +2084,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 5
+              "queueAhead": 1
             }
           ]
         },
