@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T11:41:58.906583+00:00",
+  "updatedAt": "2026-07-25T12:45:07.953654+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -36,7 +36,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 3
+              "queueAhead": 1
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -50,7 +50,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 6
+              "queueAhead": 2
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -64,7 +64,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 8
+              "queueAhead": 4
             }
           ]
         },
@@ -219,6 +219,20 @@
               "score": "11-4",
               "won": true,
               "queueAhead": null
+            },
+            {
+              "matchId": "8f57cb35-2da2-459b-bb60-0d06d840f42e",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "20:45",
+              "court": "Court 2",
+              "opponent": "Forro, Edalrehce / Rafols, Jan",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 11
             }
           ]
         }
@@ -281,6 +295,20 @@
               "score": "11-4",
               "won": true,
               "queueAhead": null
+            },
+            {
+              "matchId": "8f57cb35-2da2-459b-bb60-0d06d840f42e",
+              "eventName": "Novice Mixed Doubles (22 Pairs)",
+              "stageLabel": "QF",
+              "stageColor": "var(--accent-teal)",
+              "date": "2026-07-25",
+              "time": "20:45",
+              "court": "Court 2",
+              "opponent": "Forro, Edalrehce / Rafols, Jan",
+              "status": "pending",
+              "score": null,
+              "won": null,
+              "queueAhead": 11
             }
           ]
         },
@@ -1332,7 +1360,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 3
+              "queueAhead": 1
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -1346,7 +1374,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 6
+              "queueAhead": 2
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -1360,7 +1388,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 8
+              "queueAhead": 4
             }
           ]
         },
@@ -1947,12 +1975,12 @@
           "teamName": "Aguila, Lochinvar / Fuentes, Gracia Gay",
           "partner": "Aguila, Lochinvar",
           "poolLabel": "Group D",
-          "rank": 3,
+          "rank": 4,
           "poolSize": 4,
-          "played": 2,
+          "played": 3,
           "wins": 0,
-          "losses": 2,
-          "pointDiff": -8,
+          "losses": 3,
+          "pointDiff": -12,
           "matches": [
             {
               "matchId": "20d17597-9fec-4569-ad80-ebbe1c52d247",
@@ -1991,10 +2019,10 @@
               "time": "17:30",
               "court": "Court 2",
               "opponent": "Mendoza, Marc Dominic / Ricamonte, Stephanie Erica Louise",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 2
+              "status": "completed",
+              "score": "7-11",
+              "won": false,
+              "queueAhead": null
             }
           ]
         }
@@ -2028,7 +2056,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 10
+              "queueAhead": 6
             },
             {
               "matchId": "eeb89dbb-d9f0-495e-875a-d4b65ec54e4e",
@@ -2042,7 +2070,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 11
+              "queueAhead": 7
             },
             {
               "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
@@ -2056,7 +2084,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 13
+              "queueAhead": 9
             }
           ]
         },
@@ -2123,10 +2151,10 @@
           "poolLabel": "Group D",
           "rank": 2,
           "poolSize": 4,
-          "played": 1,
-          "wins": 1,
-          "losses": 0,
-          "pointDiff": 5,
+          "played": 3,
+          "wins": 2,
+          "losses": 1,
+          "pointDiff": -3,
           "matches": [
             {
               "matchId": "f0cb7718-4785-4c6f-aba3-03387dc0f4b4",
@@ -2137,10 +2165,10 @@
               "time": "16:30",
               "court": "Court 2",
               "opponent": "Mendoza, Marc Dominic / Ricamonte, Stephanie Erica Louise",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "10-11",
+              "won": true,
+              "queueAhead": null
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -2165,10 +2193,10 @@
               "time": "17:30",
               "court": "Court 1",
               "opponent": "Saad, Abraham / Te, Christie Marie",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "11-2",
+              "won": false,
+              "queueAhead": null
             }
           ]
         }
