@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T06:36:32.202531+00:00",
+  "updatedAt": "2026-07-25T08:49:26.014602+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -36,7 +36,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 15
+              "queueAhead": 11
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -50,7 +50,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 19
+              "queueAhead": 12
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -64,7 +64,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 21
+              "queueAhead": 14
             }
           ]
         },
@@ -75,10 +75,10 @@
           "poolLabel": "Group C",
           "rank": 1,
           "poolSize": 4,
-          "played": 4,
-          "wins": 4,
+          "played": 5,
+          "wins": 5,
           "losses": 0,
-          "pointDiff": 31,
+          "pointDiff": 39,
           "matches": [
             {
               "matchId": "c5c541ea-54d5-4599-bcd2-7f3628365b4f",
@@ -145,10 +145,24 @@
               "time": "14:00",
               "court": "Court 3",
               "opponent": "Melgar, Jerome / Montenegro, Rak",
-              "status": "pending",
-              "score": null,
+              "status": "completed",
+              "score": "7-15",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "0e546ae1-82be-4158-997b-83710dd73f9f",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Final",
+              "stageColor": "var(--accent-amber)",
+              "date": "2026-07-25",
+              "time": "14:30",
+              "court": "Court 1",
+              "opponent": "Coching, Nicolo Miguel / Prado, Gibrian",
+              "status": "live",
+              "score": "0–0",
               "won": null,
-              "queueAhead": 2
+              "queueAhead": null
             }
           ]
         },
@@ -176,7 +190,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 8
+              "queueAhead": 4
             },
             {
               "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
@@ -190,7 +204,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 10
+              "queueAhead": 6
             },
             {
               "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
@@ -204,7 +218,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 11
+              "queueAhead": 7
             }
           ]
         }
@@ -238,7 +252,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 8
+              "queueAhead": 4
             },
             {
               "matchId": "0e8e7287-8551-42a3-9d62-6f0d7cbf4e63",
@@ -252,7 +266,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 10
+              "queueAhead": 6
             },
             {
               "matchId": "bda718dd-f09a-458a-9e44-f80cf55d5cb9",
@@ -266,7 +280,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 11
+              "queueAhead": 7
             }
           ]
         },
@@ -457,10 +471,10 @@
           "poolLabel": "Group A",
           "rank": 2,
           "poolSize": 4,
-          "played": 3,
+          "played": 4,
           "wins": 2,
-          "losses": 1,
-          "pointDiff": -2,
+          "losses": 2,
+          "pointDiff": -3,
           "matches": [
             {
               "matchId": "91a65880-9e18-4474-9a4c-418d1adebc69",
@@ -513,10 +527,10 @@
               "time": "13:45",
               "court": "Court 3",
               "opponent": "Magro, Keisha / Salibio, Shezell",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 1
+              "status": "completed",
+              "score": "11-10",
+              "won": false,
+              "queueAhead": null
             }
           ]
         }
@@ -913,10 +927,10 @@
           "poolLabel": "Group D",
           "rank": 1,
           "poolSize": 4,
-          "played": 3,
-          "wins": 3,
-          "losses": 0,
-          "pointDiff": 25,
+          "played": 6,
+          "wins": 5,
+          "losses": 1,
+          "pointDiff": 34,
           "matches": [
             {
               "matchId": "c6c6e0e9-6791-4c27-9c4a-d363a55280fc",
@@ -969,10 +983,38 @@
               "time": "13:30",
               "court": "Court 3",
               "opponent": "Tabanar, Sergei Benjamin / Ochono, Jolo",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 0
+              "status": "completed",
+              "score": "11-10",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "16381af0-cefc-4abb-b9d7-72a218fefe6e",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "SF",
+              "stageColor": "var(--accent-violet)",
+              "date": "2026-07-25",
+              "time": "14:00",
+              "court": "Court 1",
+              "opponent": "Coching, Nicolo Miguel / Prado, Gibrian",
+              "status": "completed",
+              "score": "15-13",
+              "won": false,
+              "queueAhead": null
+            },
+            {
+              "matchId": "57d3485c-16aa-4437-a1cb-1bc222f1f95d",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Bronze",
+              "stageColor": "var(--accent-clay)",
+              "date": "2026-07-25",
+              "time": "14:30",
+              "court": "Court 2",
+              "opponent": "Melgar, Jerome / Montenegro, Rak",
+              "status": "completed",
+              "score": "15-5",
+              "won": true,
+              "queueAhead": null
             }
           ]
         }
@@ -1121,10 +1163,10 @@
           "poolLabel": "Group A",
           "rank": 2,
           "poolSize": 4,
-          "played": 3,
+          "played": 4,
           "wins": 2,
-          "losses": 1,
-          "pointDiff": -2,
+          "losses": 2,
+          "pointDiff": -3,
           "matches": [
             {
               "matchId": "91a65880-9e18-4474-9a4c-418d1adebc69",
@@ -1177,10 +1219,10 @@
               "time": "13:45",
               "court": "Court 3",
               "opponent": "Magro, Keisha / Salibio, Shezell",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 1
+              "status": "completed",
+              "score": "11-10",
+              "won": false,
+              "queueAhead": null
             }
           ]
         }
@@ -1290,7 +1332,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 15
+              "queueAhead": 11
             },
             {
               "matchId": "e52b8a15-2923-43d7-8ff9-49432b04f467",
@@ -1304,7 +1346,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 19
+              "queueAhead": 12
             },
             {
               "matchId": "8cca23f5-e01d-483a-9308-fa69a91e13e0",
@@ -1318,7 +1360,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 21
+              "queueAhead": 14
             }
           ]
         },
@@ -1329,10 +1371,10 @@
           "poolLabel": "Group C",
           "rank": 1,
           "poolSize": 4,
-          "played": 4,
-          "wins": 4,
+          "played": 5,
+          "wins": 5,
           "losses": 0,
-          "pointDiff": 31,
+          "pointDiff": 39,
           "matches": [
             {
               "matchId": "c5c541ea-54d5-4599-bcd2-7f3628365b4f",
@@ -1399,10 +1441,24 @@
               "time": "14:00",
               "court": "Court 3",
               "opponent": "Melgar, Jerome / Montenegro, Rak",
-              "status": "pending",
-              "score": null,
+              "status": "completed",
+              "score": "7-15",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "0e546ae1-82be-4158-997b-83710dd73f9f",
+              "eventName": "Novice Men's Doubles (24 Pairs)",
+              "stageLabel": "Final",
+              "stageColor": "var(--accent-amber)",
+              "date": "2026-07-25",
+              "time": "14:30",
+              "court": "Court 1",
+              "opponent": "Coching, Nicolo Miguel / Prado, Gibrian",
+              "status": "live",
+              "score": "0–0",
               "won": null,
-              "queueAhead": 2
+              "queueAhead": null
             }
           ]
         }
@@ -1473,12 +1529,12 @@
           "teamName": "Delos Santos, Allyssah Marie / Alvarez, Ashton James",
           "partner": "Alvarez, Ashton James",
           "poolLabel": "Group E",
-          "rank": null,
-          "poolSize": null,
-          "played": 0,
+          "rank": 2,
+          "poolSize": 3,
+          "played": 1,
           "wins": 0,
-          "losses": 0,
-          "pointDiff": 0,
+          "losses": 1,
+          "pointDiff": -10,
           "matches": [
             {
               "matchId": "6337c6bb-7114-4c38-bb84-fbccd9e2fce5",
@@ -1489,10 +1545,10 @@
               "time": "15:00",
               "court": "Court 3",
               "opponent": "Tabanar, Sergei Benjamin / Tabañar, Bianca Ysobel",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 6
+              "status": "completed",
+              "score": "11-1",
+              "won": false,
+              "queueAhead": null
             },
             {
               "matchId": "ed10a413-9792-4837-8b16-9c7988b95674",
@@ -1506,7 +1562,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 9
+              "queueAhead": 5
             }
           ]
         },
@@ -1910,7 +1966,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 12
+              "queueAhead": 5
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -1924,7 +1980,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 12
+              "queueAhead": 8
             },
             {
               "matchId": "79f0372b-35d3-471c-baa8-1032729c9ae6",
@@ -1938,7 +1994,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 14
+              "queueAhead": 10
             }
           ]
         }
@@ -1972,7 +2028,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 23
+              "queueAhead": 16
             },
             {
               "matchId": "eeb89dbb-d9f0-495e-875a-d4b65ec54e4e",
@@ -1986,7 +2042,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 23
+              "queueAhead": 19
             },
             {
               "matchId": "9e7083d8-bbd7-4ef2-85c5-dca42c158805",
@@ -2000,7 +2056,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 25
+              "queueAhead": 21
             }
           ]
         },
@@ -2084,7 +2140,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 10
+              "queueAhead": 6
             },
             {
               "matchId": "ef997b29-88e4-43bf-ba86-5cf23fbcfaad",
@@ -2098,7 +2154,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 12
+              "queueAhead": 8
             },
             {
               "matchId": "4ad0e919-d11b-4e7c-87f4-b81f1b688051",
@@ -2112,7 +2168,7 @@
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 15
+              "queueAhead": 11
             }
           ]
         }
