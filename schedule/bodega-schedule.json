@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T17:41:08.431279+00:00",
+  "updatedAt": "2026-07-25T19:55:26.200194+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -71,14 +71,14 @@
               "eventName": "Intermediate Men's Doubles (16 Pairs)",
               "stageLabel": "QF",
               "stageColor": "var(--accent-teal)",
-              "date": "2026-07-25",
-              "time": "21:30",
+              "date": "2026-07-26",
+              "time": "08:15",
               "court": "Court 2",
               "opponent": "Licera, Gerald / Talento, Erwin",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 2
+              "queueAhead": 1
             }
           ]
         },
@@ -1465,14 +1465,14 @@
               "eventName": "Intermediate Men's Doubles (16 Pairs)",
               "stageLabel": "QF",
               "stageColor": "var(--accent-teal)",
-              "date": "2026-07-25",
-              "time": "21:30",
+              "date": "2026-07-26",
+              "time": "08:15",
               "court": "Court 2",
               "opponent": "Licera, Gerald / Talento, Erwin",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 2
+              "queueAhead": 1
             }
           ]
         },
@@ -2175,14 +2175,14 @@
               "eventName": "Intermediate Men's Doubles (16 Pairs)",
               "stageLabel": "QF",
               "stageColor": "var(--accent-teal)",
-              "date": "2026-07-25",
-              "time": "21:45",
-              "court": "Court 2",
+              "date": "2026-07-26",
+              "time": "08:15",
+              "court": "Court 3",
               "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
               "status": "pending",
               "score": null,
               "won": null,
-              "queueAhead": 3
+              "queueAhead": 1
             }
           ]
         },
