@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T19:55:26.200194+00:00",
+  "updatedAt": "2026-07-26T02:32:27.800028+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -19,10 +19,10 @@
           "poolLabel": "Group C",
           "rank": 2,
           "poolSize": 4,
-          "played": 3,
-          "wins": 2,
-          "losses": 1,
-          "pointDiff": -3,
+          "played": 5,
+          "wins": 3,
+          "losses": 2,
+          "pointDiff": -7,
           "matches": [
             {
               "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
@@ -75,10 +75,38 @@
               "time": "08:15",
               "court": "Court 2",
               "opponent": "Licera, Gerald / Talento, Erwin",
-              "status": "pending",
-              "score": null,
+              "status": "completed",
+              "score": "8-11",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "444396b0-e04b-4ab9-977a-49954ef633b1",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "SF",
+              "stageColor": "var(--accent-violet)",
+              "date": "2026-07-26",
+              "time": "08:45",
+              "court": "Court 3",
+              "opponent": "Francisco, Ronie / Mejia, Angelo",
+              "status": "completed",
+              "score": "15-8",
+              "won": false,
+              "queueAhead": null
+            },
+            {
+              "matchId": "5388c90d-25e4-44ce-ad13-27b66b853b64",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Bronze",
+              "stageColor": "var(--accent-clay)",
+              "date": "2026-07-26",
+              "time": "09:00",
+              "court": "Court 3",
+              "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
+              "status": "live",
+              "score": "0–0",
               "won": null,
-              "queueAhead": 1
+              "queueAhead": null
             }
           ]
         },
@@ -1413,10 +1441,10 @@
           "poolLabel": "Group C",
           "rank": 2,
           "poolSize": 4,
-          "played": 3,
-          "wins": 2,
-          "losses": 1,
-          "pointDiff": -3,
+          "played": 5,
+          "wins": 3,
+          "losses": 2,
+          "pointDiff": -7,
           "matches": [
             {
               "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
@@ -1469,10 +1497,38 @@
               "time": "08:15",
               "court": "Court 2",
               "opponent": "Licera, Gerald / Talento, Erwin",
-              "status": "pending",
-              "score": null,
+              "status": "completed",
+              "score": "8-11",
+              "won": true,
+              "queueAhead": null
+            },
+            {
+              "matchId": "444396b0-e04b-4ab9-977a-49954ef633b1",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "SF",
+              "stageColor": "var(--accent-violet)",
+              "date": "2026-07-26",
+              "time": "08:45",
+              "court": "Court 3",
+              "opponent": "Francisco, Ronie / Mejia, Angelo",
+              "status": "completed",
+              "score": "15-8",
+              "won": false,
+              "queueAhead": null
+            },
+            {
+              "matchId": "5388c90d-25e4-44ce-ad13-27b66b853b64",
+              "eventName": "Intermediate Men's Doubles (16 Pairs)",
+              "stageLabel": "Bronze",
+              "stageColor": "var(--accent-clay)",
+              "date": "2026-07-26",
+              "time": "09:00",
+              "court": "Court 3",
+              "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
+              "status": "live",
+              "score": "0–0",
               "won": null,
-              "queueAhead": 1
+              "queueAhead": null
             }
           ]
         },
@@ -2123,10 +2179,10 @@
           "poolLabel": "Group B",
           "rank": 2,
           "poolSize": 4,
-          "played": 3,
+          "played": 4,
           "wins": 2,
-          "losses": 1,
-          "pointDiff": 10,
+          "losses": 2,
+          "pointDiff": -1,
           "matches": [
             {
               "matchId": "b390d300-d101-4d25-918e-5002b834a50c",
@@ -2179,10 +2235,10 @@
               "time": "08:15",
               "court": "Court 3",
               "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
-              "status": "pending",
-              "score": null,
-              "won": null,
-              "queueAhead": 1
+              "status": "completed",
+              "score": "11-0",
+              "won": false,
+              "queueAhead": null
             }
           ]
         },
