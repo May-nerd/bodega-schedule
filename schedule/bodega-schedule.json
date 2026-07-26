@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T02:32:27.800028+00:00",
+  "updatedAt": "2026-07-26T05:47:08.115357+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -19,10 +19,10 @@
           "poolLabel": "Group C",
           "rank": 2,
           "poolSize": 4,
-          "played": 5,
+          "played": 6,
           "wins": 3,
-          "losses": 2,
-          "pointDiff": -7,
+          "losses": 3,
+          "pointDiff": -8,
           "matches": [
             {
               "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
@@ -103,9 +103,9 @@
               "time": "09:00",
               "court": "Court 3",
               "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
-              "status": "live",
-              "score": "0–0",
-              "won": null,
+              "status": "completed",
+              "score": "14-15",
+              "won": false,
               "queueAhead": null
             }
           ]
@@ -1441,10 +1441,10 @@
           "poolLabel": "Group C",
           "rank": 2,
           "poolSize": 4,
-          "played": 5,
+          "played": 6,
           "wins": 3,
-          "losses": 2,
-          "pointDiff": -7,
+          "losses": 3,
+          "pointDiff": -8,
           "matches": [
             {
               "matchId": "22da25be-a33b-41be-b82c-7705cdfd9075",
@@ -1525,9 +1525,9 @@
               "time": "09:00",
               "court": "Court 3",
               "opponent": "Dalida, Joren Emmanuel / Escarilla, Anoni",
-              "status": "live",
-              "score": "0–0",
-              "won": null,
+              "status": "completed",
+              "score": "14-15",
+              "won": false,
               "queueAhead": null
             }
           ]
