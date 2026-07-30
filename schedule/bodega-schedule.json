@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T05:47:08.115357+00:00",
+  "updatedAt": "2026-07-30T08:47:52.959058+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -479,10 +479,10 @@
           "poolLabel": "Group B",
           "rank": 4,
           "poolSize": 4,
-          "played": 3,
+          "played": 2,
           "wins": 0,
-          "losses": 3,
-          "pointDiff": -21,
+          "losses": 2,
+          "pointDiff": -20,
           "matches": [
             {
               "matchId": "ce933e5b-fe6c-42f9-a0e4-50c743ed3f3b",
@@ -493,9 +493,9 @@
               "time": "08:00",
               "court": "Court 3",
               "opponent": "Capispisan, Dominguito / Gonzaga, Angelo Galileo",
-              "status": "completed",
-              "score": "11-10",
-              "won": false,
+              "status": "live",
+              "score": "0–0",
+              "won": null,
               "queueAhead": null
             },
             {
@@ -673,10 +673,10 @@
           "poolLabel": "Group B",
           "rank": 4,
           "poolSize": 4,
-          "played": 3,
+          "played": 2,
           "wins": 0,
-          "losses": 3,
-          "pointDiff": -21,
+          "losses": 2,
+          "pointDiff": -20,
           "matches": [
             {
               "matchId": "ce933e5b-fe6c-42f9-a0e4-50c743ed3f3b",
@@ -687,9 +687,9 @@
               "time": "08:00",
               "court": "Court 3",
               "opponent": "Capispisan, Dominguito / Gonzaga, Angelo Galileo",
-              "status": "completed",
-              "score": "11-10",
-              "won": false,
+              "status": "live",
+              "score": "0–0",
+              "won": null,
               "queueAhead": null
             },
             {
@@ -1155,12 +1155,12 @@
           "teamName": "De Guzman, John Carlo / Lucerio, Brian Matthew",
           "partner": "Lucerio, Brian Matthew",
           "poolLabel": "Group A",
-          "rank": 1,
+          "rank": 3,
           "poolSize": 4,
           "played": 4,
-          "wins": 2,
-          "losses": 2,
-          "pointDiff": 6,
+          "wins": 1,
+          "losses": 3,
+          "pointDiff": -13,
           "matches": [
             {
               "matchId": "9cdd6efe-2199-4594-8320-0b031e083bcb",
@@ -1172,8 +1172,8 @@
               "court": "Court 2",
               "opponent": "Esmeralda, Jian / Teodosio, Kevin",
               "status": "completed",
-              "score": "3-11",
-              "won": true,
+              "score": "11-0",
+              "won": false,
               "queueAhead": null
             },
             {
@@ -1363,12 +1363,12 @@
           "teamName": "De Guzman, John Carlo / Lucerio, Brian Matthew",
           "partner": "De Guzman, John Carlo",
           "poolLabel": "Group A",
-          "rank": 1,
+          "rank": 3,
           "poolSize": 4,
           "played": 4,
-          "wins": 2,
-          "losses": 2,
-          "pointDiff": 6,
+          "wins": 1,
+          "losses": 3,
+          "pointDiff": -13,
           "matches": [
             {
               "matchId": "9cdd6efe-2199-4594-8320-0b031e083bcb",
@@ -1380,8 +1380,8 @@
               "court": "Court 2",
               "opponent": "Esmeralda, Jian / Teodosio, Kevin",
               "status": "completed",
-              "score": "3-11",
-              "won": true,
+              "score": "11-0",
+              "won": false,
               "queueAhead": null
             },
             {
