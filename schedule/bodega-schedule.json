@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:47:52.959058+00:00",
+  "updatedAt": "2026-07-31T07:34:57.053125+00:00",
   "source": "https://picklepodium.vercel.app/t/1st-baseline-cup",
   "scheduleUrl": "https://picklepodium.vercel.app/t/1st-baseline-cup/schedule",
   "event": {
@@ -1155,12 +1155,12 @@
           "teamName": "De Guzman, John Carlo / Lucerio, Brian Matthew",
           "partner": "Lucerio, Brian Matthew",
           "poolLabel": "Group A",
-          "rank": 3,
+          "rank": 2,
           "poolSize": 4,
-          "played": 4,
+          "played": 3,
           "wins": 1,
-          "losses": 3,
-          "pointDiff": -13,
+          "losses": 2,
+          "pointDiff": -2,
           "matches": [
             {
               "matchId": "9cdd6efe-2199-4594-8320-0b031e083bcb",
@@ -1171,10 +1171,10 @@
               "time": "08:00",
               "court": "Court 2",
               "opponent": "Esmeralda, Jian / Teodosio, Kevin",
-              "status": "completed",
-              "score": "11-0",
-              "won": false,
-              "queueAhead": null
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 0
             },
             {
               "matchId": "1f45fe44-1263-4cd8-b312-b78ea9499b31",
@@ -1363,12 +1363,12 @@
           "teamName": "De Guzman, John Carlo / Lucerio, Brian Matthew",
           "partner": "De Guzman, John Carlo",
           "poolLabel": "Group A",
-          "rank": 3,
+          "rank": 2,
           "poolSize": 4,
-          "played": 4,
+          "played": 3,
           "wins": 1,
-          "losses": 3,
-          "pointDiff": -13,
+          "losses": 2,
+          "pointDiff": -2,
           "matches": [
             {
               "matchId": "9cdd6efe-2199-4594-8320-0b031e083bcb",
@@ -1379,10 +1379,10 @@
               "time": "08:00",
               "court": "Court 2",
               "opponent": "Esmeralda, Jian / Teodosio, Kevin",
-              "status": "completed",
-              "score": "11-0",
-              "won": false,
-              "queueAhead": null
+              "status": "scheduled",
+              "score": null,
+              "won": null,
+              "queueAhead": 0
             },
             {
               "matchId": "1f45fe44-1263-4cd8-b312-b78ea9499b31",
